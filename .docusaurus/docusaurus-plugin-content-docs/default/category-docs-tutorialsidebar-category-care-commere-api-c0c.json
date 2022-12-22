@@ -1,0 +1,16 @@
+{
+  "title": "Care Commere API",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/care-commere-api",
+  "permalink": "/docs/category/care-commere-api",
+  "navigation": {
+    "previous": {
+      "title": "Care Commerce Store API",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/tutorial-basics/create-a-page"
+    }
+  }
+}
