@@ -11,11 +11,15 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Care Commerce",
+    "permalink": "/docs/Overiview/Overview-0f-Care-Commerce"
+  },
   "next": {
     "title": "Care Commere Store API",
     "permalink": "/docs/category/care-commere-store-api"

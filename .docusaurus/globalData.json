@@ -8,11 +8,26 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Overiview/Overview-0f-E-Commerce",
           "docs": [
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Overiview/Overview-0f-Care-Commerce",
+              "path": "/docs/Overiview/Overview-0f-Care-Commerce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Overiview/Overview-0f-E-Commerce",
+              "path": "/docs/Overiview/Overview-0f-E-Commerce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Overiview/Overview-0f-ONDC",
+              "path": "/docs/Overiview/Overview-0f-ONDC",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,6 +71,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/overview",
+              "path": "/docs/category/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/care-commere-store-api",
               "path": "/docs/category/care-commere-store-api",
               "sidebar": "tutorialSidebar"
@@ -70,8 +90,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/category/overview",
+                "label": "Overview"
               }
             }
           }

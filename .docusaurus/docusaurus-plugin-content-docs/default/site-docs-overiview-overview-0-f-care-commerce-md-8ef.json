@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Overiview/Overview-0f-Care-Commerce",
+  "id": "Overiview/Overview-0f-Care-Commerce",
+  "title": "Care Commerce",
+  "description": "Let's discover Care Commerce.",
+  "source": "@site/docs/Overiview/Overview-0f-Care-Commerce.md",
+  "sourceDirName": "Overiview",
+  "slug": "/Overiview/Overview-0f-Care-Commerce",
+  "permalink": "/docs/Overiview/Overview-0f-Care-Commerce",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Overiview/Overview-0f-Care-Commerce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ONDC",
+    "permalink": "/docs/Overiview/Overview-0f-ONDC"
+  },
+  "next": {
+    "title": "Care Commerce Store API",
+    "permalink": "/docs/intro"
+  }
+}
