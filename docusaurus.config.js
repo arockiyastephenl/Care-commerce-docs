@@ -60,7 +60,7 @@ const config = {
         title: 'Care Commerce ',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cclogo.svg',
         },
         items: [
           {

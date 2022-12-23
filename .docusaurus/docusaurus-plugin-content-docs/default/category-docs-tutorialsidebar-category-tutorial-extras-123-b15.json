@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras123",
+  "slug": "/category/tutorial---extras123",
+  "permalink": "/docs/category/tutorial---extras123",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/docs/tutorial-basics/congratulations"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}
