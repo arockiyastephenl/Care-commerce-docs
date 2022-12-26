@@ -76,8 +76,8 @@
             {
               "unversionedId": "Overiview/Overview-0f-E-Commerce",
               "id": "Overiview/Overview-0f-E-Commerce",
-              "title": "E-Commerce",
-              "description": "Let's discover Overview of E-Commerce.",
+              "title": "e-Commerce",
+              "description": "e-Commerce  Buy and Sell goods and services over the Internet.",
               "source": "@site/docs/Overiview/Overview-0f-E-Commerce.md",
               "sourceDirName": "Overiview",
               "slug": "/Overiview/Overview-0f-E-Commerce",
@@ -104,7 +104,7 @@
               "unversionedId": "Overiview/Overview-0f-ONDC",
               "id": "Overiview/Overview-0f-ONDC",
               "title": "ONDC",
-              "description": "Let's discover ONDC.",
+              "description": "ONDC Open Network for Digital Commerce - Buying and selling in transparent way over the online.",
               "source": "@site/docs/Overiview/Overview-0f-ONDC.md",
               "sourceDirName": "Overiview",
               "slug": "/Overiview/Overview-0f-ONDC",
@@ -119,7 +119,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "E-Commerce",
+                "title": "e-Commerce",
                 "permalink": "/docs/Overiview/Overview-0f-E-Commerce"
               },
               "next": {

@@ -17,7 +17,7 @@
         "items": [
           {
             "type": "link",
-            "label": "E-Commerce",
+            "label": "e-Commerce",
             "href": "/docs/Overiview/Overview-0f-E-Commerce",
             "docId": "Overiview/Overview-0f-E-Commerce"
           },
@@ -125,14 +125,14 @@
     },
     "Overiview/Overview-0f-E-Commerce": {
       "id": "Overiview/Overview-0f-E-Commerce",
-      "title": "E-Commerce",
-      "description": "Let's discover Overview of E-Commerce.",
+      "title": "e-Commerce",
+      "description": "e-Commerce  Buy and Sell goods and services over the Internet.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-ONDC": {
       "id": "Overiview/Overview-0f-ONDC",
       "title": "ONDC",
-      "description": "Let's discover ONDC.",
+      "description": "ONDC Open Network for Digital Commerce - Buying and selling in transparent way over the online.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
