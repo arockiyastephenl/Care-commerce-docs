@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Care Commerce API Documentation",
-  "tagline": "Lets Getinto the API",
+  "title": "Care Commerce Documentation",
+  "tagline": "",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -49,13 +49,18 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "Overiview/Overview-0f-E-Commerce",
           "position": "left",
-          "label": "Tutorial"
+          "label": "e-Commerce"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/docs/Overiview/Overview-0f-ONDC",
+          "label": "ONDC",
+          "position": "left"
+        },
+        {
+          "to": "/docs/Overiview/Overview-0f-Care-Commerce",
+          "label": "Care Commerce",
           "position": "left"
         },
         {
@@ -73,43 +78,29 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "e-Commerce",
+              "to": "/docs/Overiview/Overview-0f-E-Commerce"
+            },
+            {
+              "label": "ONDC",
+              "to": "/docs/Overiview/Overview-0f-ONDC"
+            },
+            {
+              "label": "Care Commerce",
+              "to": "/docs/Overiview/Overview-0f-Care-Commerce"
             }
           ]
         },
         {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
+          "title": null,
+          "items": []
         },
         {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
+          "title": null,
+          "items": []
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Colakin Pty Ltd."
     },
     "prism": {
       "theme": {

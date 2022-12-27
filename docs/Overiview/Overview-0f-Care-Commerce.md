@@ -4,21 +4,22 @@ sidebar_position: 3
 
 # Care Commerce
 
-Let's discover **Care Commerce**.
+**Care Commerce** is a seller app and it has a seller aggregator.
 
-## Outline 
-- What is Care Commerce
-- How the Care Commerce involved in ONDC
-- Why choose Care Commerce for ONDC
-- Functionality of Care Commerce
+## Topics 
+
+- How Care Commerce works
+- Why choose Care Commerce 
 - Features of Care Commerce
 
-### What is Care Commerce
-Care commerce is a seller aggregator. It is integrated and also interacts with ONDC. Care contains an aggregate collection of sellers. Sellers details have been grouped with location based and product based . The data can be accessed and served through API (Application Programming Interface) . Care Commerce contains all the required functionality of a seller to build a website, accept orders, track inventory, process payments, manage shipping and analyze your data.
 
-### the Care Commerce involved in ONDC
 
-The buyer needs a product they have to search on the buyer application portal . The requested product search details passes through the ONDC. The ONDC connected to a seller application that is Care Commerce. ONDC requested the Care Commerce the required details of the seller and their location with all details including logistics, amount and product details returned to ONDC and ONDC gave the response to the buyer applications.
+### How Care Commerce works
+
+Shop owner approches Care Commerce (Seller App) for onboard to ONDC. Getting product catelogue from shop owner and created e-commerce store for shop owner. If end users search the product the request go through the ONDC get apprapriate prroduct details with seller details from Care Commerce.
+
+
+### Why choose Care Commerce
 
 - Easy to cataloging
 - Easy to Manage
@@ -37,10 +38,6 @@ Your products reach buyers by using the extended logistics capabilities of the O
 - ``` A complete solution ```
 Sellers get the following benefits for getting more orders, fulfill them seamlessly, drive revenue, and automate marketing and reporting, all from the Care Commerce. Let your customers track deliveries and be delighted with you. Managing and growing an ecommerce business is very simple and easy.
 
-### Functionality of Care Commerce
-
-The seller application only on boarding the seller’s.Care commerce seller’s following details product details, price details, seller bank account details and logistics provision details. Each and everything all the details saved into the database. Using an elastic search method the data can be retrieved by the based upon the request coming from the ONDC . 
-
 
 ### Features of Care Commerce
 
@@ -52,11 +49,11 @@ The following list of features available for care commerce
 - Getting services is effortless for sellers.
 - All seller services under one roof.
 
-### Questionnaires : 
+<!-- ### Questionnaires : 
 - What is Care Commerce ?
 - How the Care Commerce working ?
 - Why choose care commerce ?
-- What are the feature of Care Commerce ?
+- What are the feature of Care Commerce ? -->
 
 
 ### Conclusion:

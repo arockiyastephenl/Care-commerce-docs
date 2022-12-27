@@ -2,7 +2,7 @@
   "unversionedId": "Overiview/Overview-0f-Care-Commerce",
   "id": "Overiview/Overview-0f-Care-Commerce",
   "title": "Care Commerce",
-  "description": "Let's discover Care Commerce.",
+  "description": "Care Commerce is a seller app and it has a seller aggregator.",
   "source": "@site/docs/Overiview/Overview-0f-Care-Commerce.md",
   "sourceDirName": "Overiview",
   "slug": "/Overiview/Overview-0f-Care-Commerce",
@@ -21,7 +21,7 @@
     "permalink": "/docs/Overiview/Overview-0f-ONDC"
   },
   "next": {
-    "title": "Care Commerce Store API",
-    "permalink": "/docs/intro"
+    "title": "ONDC API",
+    "permalink": "/docs/ONDC_API"
   }
 }

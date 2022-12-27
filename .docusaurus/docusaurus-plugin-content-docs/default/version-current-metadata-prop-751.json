@@ -17,7 +17,7 @@
         "items": [
           {
             "type": "link",
-            "label": "E-Commerce",
+            "label": "e-Commerce",
             "href": "/docs/Overiview/Overview-0f-E-Commerce",
             "docId": "Overiview/Overview-0f-E-Commerce"
           },
@@ -38,9 +38,9 @@
       },
       {
         "type": "link",
-        "label": "Care Commerce Store API",
-        "href": "/docs/intro",
-        "docId": "intro"
+        "label": "ONDC API",
+        "href": "/docs/ONDC_API",
+        "docId": "ONDC_API"
       },
       {
         "type": "category",
@@ -88,6 +88,12 @@
         "href": "/docs/category/care-commere-store-api"
       },
       {
+        "type": "link",
+        "label": "Care Commerce Store API",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
         "type": "category",
         "label": "Tutorial - Extras",
         "collapsible": true,
@@ -117,22 +123,28 @@
       "description": "Let's discover The Care Commerce Store API.",
       "sidebar": "tutorialSidebar"
     },
+    "ONDC_API": {
+      "id": "ONDC_API",
+      "title": "ONDC API",
+      "description": "ONDC API acting as a Gateway of buyer and seller.",
+      "sidebar": "tutorialSidebar"
+    },
     "Overiview/Overview-0f-Care-Commerce": {
       "id": "Overiview/Overview-0f-Care-Commerce",
       "title": "Care Commerce",
-      "description": "Let's discover Care Commerce.",
+      "description": "Care Commerce is a seller app and it has a seller aggregator.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-E-Commerce": {
       "id": "Overiview/Overview-0f-E-Commerce",
-      "title": "E-Commerce",
-      "description": "Let's discover Overview of E-Commerce.",
+      "title": "e-Commerce",
+      "description": "e-Commerce  Buy and Sell goods and services over the Internet. It includes payments and logistics also.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-ONDC": {
       "id": "Overiview/Overview-0f-ONDC",
       "title": "ONDC",
-      "description": "Let's discover ONDC.",
+      "description": "ONDC Open Network for Digital Commerce - Buying and selling in transparent way over the online.",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

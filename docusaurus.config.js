@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Care Commerce API Documentation',
-  tagline: 'Lets Getinto the API',
+  title: 'Care Commerce Documentation',
+  tagline: '',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -65,11 +65,12 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Overiview/Overview-0f-E-Commerce',
             position: 'left',
-            label: 'Tutorial',
+            label: 'e-Commerce',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/Overiview/Overview-0f-ONDC', label: 'ONDC', position: 'left'},
+          {to: '/docs/Overiview/Overview-0f-Care-Commerce', label: 'Care Commerce', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -84,43 +85,51 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'e-Commerce',
+                to: '/docs/Overiview/Overview-0f-E-Commerce',
+              },
+              {
+                label: 'ONDC',
+                to: '/docs/Overiview/Overview-0f-ONDC',
+              },
+              {
+                label: 'Care Commerce',
+                to: '/docs/Overiview/Overview-0f-Care-Commerce',
               },
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+            // title: 'Community',
+            // items: [
+            //   {
+            //     label: 'Stack Overflow',
+            //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            //   },
+            //   {
+            //     label: 'Discord',
+            //     href: 'https://discordapp.com/invite/docusaurus',
+            //   },
+            //   {
+            //     label: 'Twitter',
+            //     href: 'https://twitter.com/docusaurus',
+            //   },
+            // ],
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+            // title: 'More',
+            // items: [
+            //   {
+            //     label: 'Blog',
+            //     to: '/blog',
+            //   },
+            //   {
+            //     label: 'GitHub',
+            //     href: 'https://github.com/facebook/docusaurus',
+            //   },
+            // ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Colakin Pty Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,

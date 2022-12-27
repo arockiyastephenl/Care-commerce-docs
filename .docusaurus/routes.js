@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '40b'),
+    component: ComponentCreator('/docs', '563'),
     routes: [
       {
         path: '/docs/category/care-commere-store-api',
@@ -122,6 +122,12 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/ONDC_API',
+        component: ComponentCreator('/docs/ONDC_API', 'df7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

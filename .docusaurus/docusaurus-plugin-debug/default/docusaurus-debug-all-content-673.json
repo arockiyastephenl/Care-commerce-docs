@@ -32,6 +32,33 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              }
+            },
+            {
+              "unversionedId": "ONDC_API",
+              "id": "ONDC_API",
+              "title": "ONDC API",
+              "description": "ONDC API acting as a Gateway of buyer and seller.",
+              "source": "@site/docs/ONDC_API.md",
+              "sourceDirName": ".",
+              "slug": "/ONDC_API",
+              "permalink": "/docs/ONDC_API",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC_API.md",
+              "tags": [],
+              "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2
@@ -50,7 +77,7 @@
               "unversionedId": "Overiview/Overview-0f-Care-Commerce",
               "id": "Overiview/Overview-0f-Care-Commerce",
               "title": "Care Commerce",
-              "description": "Let's discover Care Commerce.",
+              "description": "Care Commerce is a seller app and it has a seller aggregator.",
               "source": "@site/docs/Overiview/Overview-0f-Care-Commerce.md",
               "sourceDirName": "Overiview",
               "slug": "/Overiview/Overview-0f-Care-Commerce",
@@ -69,15 +96,15 @@
                 "permalink": "/docs/Overiview/Overview-0f-ONDC"
               },
               "next": {
-                "title": "Care Commerce Store API",
-                "permalink": "/docs/intro"
+                "title": "ONDC API",
+                "permalink": "/docs/ONDC_API"
               }
             },
             {
               "unversionedId": "Overiview/Overview-0f-E-Commerce",
               "id": "Overiview/Overview-0f-E-Commerce",
-              "title": "E-Commerce",
-              "description": "Let's discover Overview of E-Commerce.",
+              "title": "e-Commerce",
+              "description": "e-Commerce  Buy and Sell goods and services over the Internet. It includes payments and logistics also.",
               "source": "@site/docs/Overiview/Overview-0f-E-Commerce.md",
               "sourceDirName": "Overiview",
               "slug": "/Overiview/Overview-0f-E-Commerce",
@@ -104,7 +131,7 @@
               "unversionedId": "Overiview/Overview-0f-ONDC",
               "id": "Overiview/Overview-0f-ONDC",
               "title": "ONDC",
-              "description": "Let's discover ONDC.",
+              "description": "ONDC Open Network for Digital Commerce - Buying and selling in transparent way over the online.",
               "source": "@site/docs/Overiview/Overview-0f-ONDC.md",
               "sourceDirName": "Overiview",
               "slug": "/Overiview/Overview-0f-ONDC",
@@ -119,7 +146,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "E-Commerce",
+                "title": "e-Commerce",
                 "permalink": "/docs/Overiview/Overview-0f-E-Commerce"
               },
               "next": {
@@ -150,8 +177,8 @@
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "Care Commerce Store API",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -370,7 +397,7 @@
               },
               {
                 "type": "doc",
-                "id": "intro"
+                "id": "ONDC_API"
               },
               {
                 "type": "category",
@@ -409,6 +436,10 @@
                   "slug": "/category/care-commere-store-api",
                   "permalink": "/docs/category/care-commere-store-api"
                 }
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               },
               {
                 "type": "category",
