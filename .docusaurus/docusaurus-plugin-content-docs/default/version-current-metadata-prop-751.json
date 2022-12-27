@@ -38,9 +38,9 @@
       },
       {
         "type": "link",
-        "label": "Care Commerce Store API",
-        "href": "/docs/intro",
-        "docId": "intro"
+        "label": "ONDC API",
+        "href": "/docs/ONDC_API",
+        "docId": "ONDC_API"
       },
       {
         "type": "category",
@@ -88,6 +88,12 @@
         "href": "/docs/category/care-commere-store-api"
       },
       {
+        "type": "link",
+        "label": "Care Commerce Store API",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
         "type": "category",
         "label": "Tutorial - Extras",
         "collapsible": true,
@@ -117,16 +123,22 @@
       "description": "Let's discover The Care Commerce Store API.",
       "sidebar": "tutorialSidebar"
     },
+    "ONDC_API": {
+      "id": "ONDC_API",
+      "title": "ONDC API",
+      "description": "ONDC API acting as a Gateway of buyer and seller.",
+      "sidebar": "tutorialSidebar"
+    },
     "Overiview/Overview-0f-Care-Commerce": {
       "id": "Overiview/Overview-0f-Care-Commerce",
       "title": "Care Commerce",
-      "description": "Let's discover Care Commerce.",
+      "description": "Care Commerce is a seller app and it has a seller aggregator.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-E-Commerce": {
       "id": "Overiview/Overview-0f-E-Commerce",
       "title": "e-Commerce",
-      "description": "e-Commerce  Buy and Sell goods and services over the Internet.",
+      "description": "e-Commerce  Buy and Sell goods and services over the Internet. It includes payments and logistics also.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-ONDC": {

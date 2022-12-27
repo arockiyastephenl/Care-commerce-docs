@@ -5,6 +5,7 @@ sidebar_position: 2
 # ONDC
 
 **ONDC** Open Network for Digital Commerce - Buying and selling in transparent way over the online.
+The buyer search the required product through and product availablity,near by seller details,payment details and logistics everything the ONDC collect the details and give to the buyer app .
 
 ## Topics
 - Salient features of ONDC
@@ -13,7 +14,8 @@ sidebar_position: 2
 - Roadmap of ONDC
 - Feature plan of ONDC
 
-### Salient features of ONDC
+### Salient features of ONDC 
+(Ref : https://www.upsciq.com/what-open-network-digital-for-commerce/ )
 - Free and open source
 - Connect with buyers on multiple platforms
 - Level playing field - big and small companies in same level
@@ -43,6 +45,7 @@ Collecting payments by the delivery person.
 
 
 ### Roadmap of ONDC
+(Ref: https://en.wikipedia.org/wiki/Open_Network_for_Digital_Commerce )
 - 05 Jul 2021         - A nine-member Advisory Council was constituted by Department for Promotion of Industry 
                         and Internal Trade (DPIIT)
 - 26 Oct 2021         - QCI established a team of experts and on-boarded some small and medium size industries as 
