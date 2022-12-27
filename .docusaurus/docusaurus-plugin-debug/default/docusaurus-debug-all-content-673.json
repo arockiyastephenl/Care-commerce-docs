@@ -50,7 +50,7 @@
               "unversionedId": "ONDC_API",
               "id": "ONDC_API",
               "title": "ONDC API",
-              "description": "ONDC API acting as a Gateway of buyer and seller.",
+              "description": "ONDC API acting as a Gateway of buyer and seller. The ONDC get the request of the buyer and send it to the seller . Get the seller response details forewarded to buyer.",
               "source": "@site/docs/ONDC_API.md",
               "sourceDirName": ".",
               "slug": "/ONDC_API",
