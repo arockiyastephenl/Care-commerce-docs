@@ -5,8 +5,8 @@
   "permalink": "/docs/category/care-commere-store-api",
   "navigation": {
     "previous": {
-      "title": "ONDC API",
-      "permalink": "/docs/ONDC_API"
+      "title": "Care Commerce Location API",
+      "permalink": "/docs/Location_API"
     },
     "next": {
       "title": "Create a Page",
