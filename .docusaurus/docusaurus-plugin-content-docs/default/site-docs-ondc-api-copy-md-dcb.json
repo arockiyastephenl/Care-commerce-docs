@@ -1,14 +1,14 @@
 {
-  "unversionedId": "ONDC_API",
-  "id": "ONDC_API",
+  "unversionedId": "ONDC_API copy",
+  "id": "ONDC_API copy",
   "title": "ONDC API",
   "description": "ONDC API acting as a Gateway of buyer and seller. The ONDC get the request of the buyer and send it to the seller . Get the seller response details forewarded to buyer.",
-  "source": "@site/docs/ONDC_API.md",
+  "source": "@site/docs/ONDC_API copy.md",
   "sourceDirName": ".",
-  "slug": "/ONDC_API",
-  "permalink": "/docs/ONDC_API",
+  "slug": "/ONDC_API copy",
+  "permalink": "/docs/ONDC_API copy",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC_API.md",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC_API copy.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -21,7 +21,7 @@
     "permalink": "/docs/Overiview/Overview-0f-Care-Commerce"
   },
   "next": {
-    "title": "Care Commerce Store API",
-    "permalink": "/docs/intro"
+    "title": "ONDC API",
+    "permalink": "/docs/ONDC_API"
   }
 }
