@@ -67,15 +67,11 @@ const config = {
             type: 'doc',
             docId: 'Overiview/Overview-0f-E-Commerce',
             position: 'left',
-            label: 'e-Commerce',
+            label: 'Overview', 
           },
-          {to: '/docs/Overiview/Overview-0f-ONDC', label: 'ONDC', position: 'left'},
-          {to: '/docs/Overiview/Overview-0f-Care-Commerce', label: 'Care Commerce', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/docs/category/ondc-api', label: 'ONDC', position: 'left'},
+          {to: '/docs/category/seller-api', label: 'Care Commerce', position: 'left'},
+         
         ],
       },
       footer: {
@@ -85,16 +81,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'e-Commerce',
-                to: '/docs/Overiview/Overview-0f-E-Commerce',
+                label: 'Overview',
+                to: '/docs/category/overview',
               },
               {
                 label: 'ONDC',
-                to: '/docs/Overiview/Overview-0f-ONDC',
+                to: '/docs/category/ondc-api',
               },
               {
                 label: 'Care Commerce',
-                to: '/docs/Overiview/Overview-0f-Care-Commerce',
+                to: '/docs/category/seller-api',
               },
             ],
           },

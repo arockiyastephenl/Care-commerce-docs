@@ -1,0 +1,15 @@
+{
+  "title": "ONDC API",
+  "slug": "/category/ondc-api",
+  "permalink": "/docs/category/ondc-api",
+  "navigation": {
+    "previous": {
+      "title": "Care Commerce",
+      "permalink": "/docs/Overiview/Overview-0f-Care-Commerce"
+    },
+    "next": {
+      "title": "Overview About ONDC API",
+      "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
+    }
+  }
+}

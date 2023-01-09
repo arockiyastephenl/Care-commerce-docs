@@ -1,0 +1,24 @@
+{
+  "unversionedId": "StoreAPI/intro",
+  "id": "StoreAPI/intro",
+  "title": "Hello",
+  "description": "Let's discover The Care Commerce Store API.",
+  "source": "@site/docs/StoreAPI/intro.md",
+  "sourceDirName": "StoreAPI",
+  "slug": "/StoreAPI/intro",
+  "permalink": "/docs/StoreAPI/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/StoreAPI/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "Store API",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Location API",
+    "permalink": "/docs/StoreAPI/Location_API"
+  }
+}

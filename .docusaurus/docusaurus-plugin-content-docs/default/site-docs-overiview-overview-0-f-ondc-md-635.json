@@ -13,11 +13,12 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
+    "sidebar_label": "ONDC",
     "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "e-Commerce",
+    "title": "E-Commerce",
     "permalink": "/docs/Overiview/Overview-0f-E-Commerce"
   },
   "next": {

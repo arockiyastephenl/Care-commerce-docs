@@ -1,0 +1,20 @@
+{
+  "unversionedId": "Overview",
+  "id": "Overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/docs/Overview.md",
+  "sourceDirName": ".",
+  "slug": "/Overview",
+  "permalink": "/docs/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Store API",
+    "permalink": "/docs/StoreAPI/intro"
+  }
+}

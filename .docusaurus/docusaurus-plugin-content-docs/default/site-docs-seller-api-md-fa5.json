@@ -1,0 +1,28 @@
+{
+  "unversionedId": "SellerAPI",
+  "id": "SellerAPI",
+  "title": "Hello",
+  "description": "This is my first Docusaurus document!",
+  "source": "@site/docs/SellerAPI.md",
+  "sourceDirName": ".",
+  "slug": "/SellerAPI",
+  "permalink": "/docs/SellerAPI",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/SellerAPI.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Seller API",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ONDC API",
+    "permalink": "/docs/ONDC_API"
+  },
+  "next": {
+    "title": "Seller API",
+    "permalink": "/docs/category/seller-api"
+  }
+}
