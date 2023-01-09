@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Overview/Overview-0f-Care-Commerce",
+  "id": "Overview/Overview-0f-Care-Commerce",
+  "title": "Care Commerceee",
+  "description": "Care Commerce is a seller app and it has a seller aggregator.",
+  "source": "@site/docs/Overview/Overview-0f-Care-Commerce.md",
+  "sourceDirName": "Overview",
+  "slug": "/Overview/Overview-0f-Care-Commerce",
+  "permalink": "/docs/Overview/Overview-0f-Care-Commerce",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Overview/Overview-0f-Care-Commerce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ONDC",
+    "permalink": "/docs/Overview/Overview-0f-ONDC"
+  },
+  "next": {
+    "title": "Seller API",
+    "permalink": "/docs/category/seller-api"
+  }
+}

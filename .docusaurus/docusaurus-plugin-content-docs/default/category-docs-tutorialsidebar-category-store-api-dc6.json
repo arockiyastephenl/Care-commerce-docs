@@ -1,0 +1,15 @@
+{
+  "title": "Store API",
+  "slug": "/category/store-api",
+  "permalink": "/docs/category/store-api",
+  "navigation": {
+    "previous": {
+      "title": "Seller API",
+      "permalink": "/docs/SellerAPI"
+    },
+    "next": {
+      "title": "Store API",
+      "permalink": "/docs/StoreAPI/intro"
+    }
+  }
+}

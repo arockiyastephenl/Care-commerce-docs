@@ -1,0 +1,16 @@
+{
+  "title": "Docusaurus Tutori",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/docusaurus-tutori",
+  "permalink": "/docs/category/docusaurus-tutori",
+  "navigation": {
+    "previous": {
+      "title": "Store API",
+      "permalink": "/docs/StoreAPI/intro"
+    },
+    "next": {
+      "title": "Create a Page",
+      "permalink": "/docs/tutorial-basics/create-a-page"
+    }
+  }
+}

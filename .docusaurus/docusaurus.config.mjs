@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\nithi\\OneDrive\\Desktop\\Care commerce doc\\Care-commerce-docs\\sidebars.js",
+          "sidebarPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\nithi\\OneDrive\\Desktop\\Care commerce doc\\Care-commerce-docs\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\src\\css\\custom.css"
         }
       }
     ]
@@ -51,22 +51,17 @@ export default {
           "type": "doc",
           "docId": "Overiview/Overview-0f-E-Commerce",
           "position": "left",
-          "label": "e-Commerce"
+          "label": "Overview"
         },
         {
-          "to": "/docs/Overiview/Overview-0f-ONDC",
+          "to": "/docs/category/ondc-api",
           "label": "ONDC",
           "position": "left"
         },
         {
-          "to": "/docs/Overiview/Overview-0f-Care-Commerce",
+          "to": "/docs/category/seller-api",
           "label": "Care Commerce",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -78,16 +73,16 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "e-Commerce",
-              "to": "/docs/Overiview/Overview-0f-E-Commerce"
+              "label": "Overview",
+              "to": "/docs/category/overview"
             },
             {
               "label": "ONDC",
-              "to": "/docs/Overiview/Overview-0f-ONDC"
+              "to": "/docs/category/ondc-api"
             },
             {
               "label": "Care Commerce",
-              "to": "/docs/Overiview/Overview-0f-Care-Commerce"
+              "to": "/docs/category/seller-api"
             }
           ]
         },
@@ -100,7 +95,7 @@ export default {
           "items": []
         }
       ],
-      "copyright": "Copyright © 2022 Colakin Pty Ltd."
+      "copyright": "Copyright © 2023 Colakin Pty Ltd."
     },
     "prism": {
       "theme": {

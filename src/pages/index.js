@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Documentation - ${siteConfig.title}`}
+      description="Care Commerce is a enables sellers to sell their products in ONDC<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

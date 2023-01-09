@@ -1,0 +1,28 @@
+{
+  "unversionedId": "StoreAPI/Location_API",
+  "id": "StoreAPI/Location_API",
+  "title": "Care Commerce Location API",
+  "description": "This document aims to enable developers to work with the Location API frameworks such as Add Location, Update Location, Get location by Id, GetAll location by Id and Delete location in the Care Commerce Application. Use this API to Location details on Care Commerce.",
+  "source": "@site/docs/StoreAPI/Location_API.md",
+  "sourceDirName": "StoreAPI",
+  "slug": "/StoreAPI/Location_API",
+  "permalink": "/docs/StoreAPI/Location_API",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/StoreAPI/Location_API.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Location API",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Seller API",
+    "permalink": "/docs/category/seller-api"
+  },
+  "next": {
+    "title": "Store API",
+    "permalink": "/docs/StoreAPI/intro"
+  }
+}

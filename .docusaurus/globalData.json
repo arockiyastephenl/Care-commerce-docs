@@ -11,18 +11,38 @@
           "mainDocId": "Overiview/Overview-0f-E-Commerce",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "ONDCAPI/InitAPI",
+              "path": "/docs/ONDCAPI/InitAPI",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Location_API",
-              "path": "/docs/Location_API",
+              "id": "ONDCAPI/On SearchAPI",
+              "path": "/docs/ONDCAPI/On SearchAPI",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDC_API",
-              "path": "/docs/ONDC_API",
+              "id": "ONDCAPI/OnInitAPI",
+              "path": "/docs/ONDCAPI/OnInitAPI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ONDCAPI/OnSelectAPI",
+              "path": "/docs/ONDCAPI/OnSelectAPI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ONDCAPI/Overview-About-ONDC-API",
+              "path": "/docs/ONDCAPI/Overview-About-ONDC-API",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ONDCAPI/SearchAPI",
+              "path": "/docs/ONDCAPI/SearchAPI",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "ONDCAPI/SelectAPI",
+              "path": "/docs/ONDCAPI/SelectAPI",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -41,43 +61,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "StoreAPI/intro",
+              "path": "/docs/StoreAPI/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "StoreAPI/Location_API",
+              "path": "/docs/StoreAPI/Location_API",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -86,13 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/care-commere-store-api",
-              "path": "/docs/category/care-commere-store-api",
+              "id": "/category/ondc-api",
+              "path": "/docs/category/ondc-api",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "id": "/category/seller-api",
+              "path": "/docs/category/seller-api",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -1,0 +1,15 @@
+{
+  "title": "Seller API",
+  "slug": "/category/seller-api",
+  "permalink": "/docs/category/seller-api",
+  "navigation": {
+    "previous": {
+      "title": "OnInit API",
+      "permalink": "/docs/ONDCAPI/OnInitAPI"
+    },
+    "next": {
+      "title": "Location API",
+      "permalink": "/docs/StoreAPI/Location_API"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "ONDCAPI/Overview",
+  "id": "ONDCAPI/Overview",
+  "title": "Overview",
+  "description": "",
+  "source": "@site/docs/ONDCAPI/Overview.md",
+  "sourceDirName": "ONDCAPI",
+  "slug": "/ONDCAPI/Overview",
+  "permalink": "/docs/ONDCAPI/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/Overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OnInit API",
+    "permalink": "/docs/ONDCAPI/OnInitAPI"
+  },
+  "next": {
+    "title": "Seller API",
+    "permalink": "/docs/category/seller-api"
+  }
+}

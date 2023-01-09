@@ -1,6 +1,8 @@
 ---
+sidebar_label: 'E-Commerce'
 sidebar_position: 1
 ---
+
 
 # e-Commerce
 

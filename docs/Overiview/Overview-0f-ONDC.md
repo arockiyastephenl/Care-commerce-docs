@@ -1,4 +1,5 @@
 ---
+sidebar_label: 'ONDC'
 sidebar_position: 2
 ---
 
