@@ -7,21 +7,68 @@ sidebar_position: 1
 
 - Use the Search API to get list of products available based on the Search parameter, Location, Mode of Payments etc..
 
-Buyer Application can use Search API by Multiple ways
+Buyer Application can use Search API by Multiple ways:
 
 1. Search Product by City (Based on the City)
 2. Search Product by Product Name ( Based on the Product Name)
 3. Search Product by Catagory (Based on the Product Catagory)
 4. Search Product by Fulfillment (Based on the specified drop location or Pickup Location)
 
-```javascript
-Method:	 	POST
-Required Parameters:	 Need city name and payment details
-Url: 			/protocol/v1/search
-Description: 		On the buyer node, the user searches for a city using the city name. The user expects a list of cities with matching name
+```bash
+Method:               POST
+Required Parameters:  Need city name and payment details
+Url: 			      /protocol/v1/search
+Description: 		  On the buyer node, the user searches for a Product using the name (change based on requirements). The user expects a list of Products with matching name
 ```
 
-# API Request Sample Data:
+## Flow Diagram of Search and on_search
+![search](https://i.imgur.com/VvS3C70.png)
+
+### Flow  
+
+- 1.0 → user searches for the product on the buyer APP eg milk
+- 1.1 →  Search request goes to the ONDC API gateway
+- 1.2 → ONDC broadcasts the request on the ONDC network 
+- 1.3 → Send the buyer app search request to the Seller APP
+- 1.4 → Seller returns the ack to the ONDC Gateway.
+- 1.5 → ONDC gateway forwards the response to the buyer
+- 1.6 → Buyer App receives the Acknowledgement message Buyer app will callback the on_search method.
+
+- 2.0 → RabbitMQ receives the search request from the ONDC API gateway.
+- 2.1 → The care-commerce API picks search request
+- 2.2 → The care-commerce API process the request.
+- 2.3 → Search request to elastic search
+- 2.4 → Dispatch search request 
+- 2.5 → Care Commerce Core Product Search API
+
+- 2.6 → Push Search Response
+
+- 3.1 → Buyer App OnSearch Request Message ID 
+- 3.2 → ONDC OnSearch 
+- 3.3 → Seller App OnSearch Request 
+- 3.4 → OnSearch Response 
+- 3.5 → ONDC OnSearch
+
+### (Internal) 
+- 4.0 → CC Seller App API OnSearch 
+
+
+## Parameters
+| Parameter    | Datatypes    | Description    |
+| :-----:      | :---:           | :---:          |
+| item.descriptor.name      | string             | Name of the Product to be searched.            |
+| fulfillment.type          | string             | Defines the Delivery mode of the Particular Product.            |
+| fulfillment.end.location.gps  | string    | Search the Product available in around the given GPS Coordinates.      |
+| payment.@ondc/org/buyer_app_finder_fee_type  | string    |  Buyer app commission type. Enum: Amount, Percent      |
+| payment.@ondc/org/buyer_app_finder_fee_amount  | string   |  Buyer app commission amount.   |
+
+
+
+
+
+
+
+## API Request Sample Data:
 
 ```json
 {

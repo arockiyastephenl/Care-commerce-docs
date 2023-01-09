@@ -59,4 +59,4 @@ Example. The buyer app will call search API to search an offering. Once this cal
 
 ## The flow of a transaction
 
-![transaction_diagram](C:\Users\ADMIN\OneDrive\Desktop\11\Care-commerce-docs\static\img\12img.jpg)
+![transaction_diagram](https://miro.medium.com/max/1400/1*5WYeLNyFtCzGnGU9pmR6tg.png)
