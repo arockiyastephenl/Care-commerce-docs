@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\sidebars.js",
+          "sidebarPath": "C:\\ZStorage\\Colakin\\ONDC\\Public Site\\Care-commerce-docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\src\\css\\custom.css"
+          "customCss": "C:\\ZStorage\\Colakin\\ONDC\\Public Site\\Care-commerce-docs\\src\\css\\custom.css"
         }
       }
     ]
