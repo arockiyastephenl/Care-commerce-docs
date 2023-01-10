@@ -60,3 +60,9 @@ Example. The buyer app will call search API to search an offering. Once this cal
 ## The flow of a transaction
 
 ![transaction_diagram](https://miro.medium.com/max/1400/1*5WYeLNyFtCzGnGU9pmR6tg.png)
+
+
+## C4 model Diagram:
+A C4 Model describes or defines software architecture at different levels of detail. A C4 Model is a set of diagrams representing the context, containers, components, and code of a piece of software. The hierarchy of these diagrams allows different audiences to understand the software architecture at the level of detail they need.
+
+[C4 model diagram](https://miro.com/app/board/uXjVP8hQMU8=/?moveToWidget=3458764542809912089&cot=10)

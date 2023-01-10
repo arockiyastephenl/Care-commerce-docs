@@ -56,21 +56,9 @@
           },
           {
             "type": "link",
-            "label": "OnSearch API",
-            "href": "/docs/ONDCAPI/On SearchAPI",
-            "docId": "ONDCAPI/On SearchAPI"
-          },
-          {
-            "type": "link",
             "label": "Select API",
             "href": "/docs/ONDCAPI/SelectAPI",
             "docId": "ONDCAPI/SelectAPI"
-          },
-          {
-            "type": "link",
-            "label": "OnSelect API",
-            "href": "/docs/ONDCAPI/OnSelectAPI",
-            "docId": "ONDCAPI/OnSelectAPI"
           },
           {
             "type": "link",
@@ -80,9 +68,9 @@
           },
           {
             "type": "link",
-            "label": "OnInit API",
-            "href": "/docs/ONDCAPI/OnInitAPI",
-            "docId": "ONDCAPI/OnInitAPI"
+            "label": "Confirm API",
+            "href": "/docs/ONDCAPI/comfirm",
+            "docId": "ONDCAPI/comfirm"
           }
         ],
         "href": "/docs/category/ondc-api"
@@ -111,27 +99,15 @@
     ]
   },
   "docs": {
+    "ONDCAPI/comfirm": {
+      "id": "ONDCAPI/comfirm",
+      "title": "comfirm",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "ONDCAPI/InitAPI": {
       "id": "ONDCAPI/InitAPI",
       "title": "InitAPI",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "ONDCAPI/On SearchAPI": {
-      "id": "ONDCAPI/On SearchAPI",
-      "title": "Hello",
-      "description": "This is my first Docusaurus document!",
-      "sidebar": "tutorialSidebar"
-    },
-    "ONDCAPI/OnInitAPI": {
-      "id": "ONDCAPI/OnInitAPI",
-      "title": "OnInitAPI",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "ONDCAPI/OnSelectAPI": {
-      "id": "ONDCAPI/OnSelectAPI",
-      "title": "OnSelectAPI",
       "description": "",
       "sidebar": "tutorialSidebar"
     },

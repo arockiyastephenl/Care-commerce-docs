@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Care Commerce',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
        Care Commerce is a seller app and it is a gateway for the seller.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'ONDC API',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
        Open Network for Digital Commerce (ONDC) API is handling buying and selling .
