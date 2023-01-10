@@ -20,78 +20,22 @@
           "contentPathLocalized": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "ONDCAPI/InitAPI",
-              "id": "ONDCAPI/InitAPI",
-              "title": "InitAPI",
+              "unversionedId": "ONDCAPI/comfirm",
+              "id": "ONDCAPI/comfirm",
+              "title": "comfirm",
               "description": "",
-              "source": "@site/docs/ONDCAPI/InitAPI.md",
+              "source": "@site/docs/ONDCAPI/comfirm.md",
               "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/InitAPI",
-              "permalink": "/docs/ONDCAPI/InitAPI",
+              "slug": "/ONDCAPI/comfirm",
+              "permalink": "/docs/ONDCAPI/comfirm",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/InitAPI.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/comfirm.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_label": "Init API",
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "OnSelect API",
-                "permalink": "/docs/ONDCAPI/OnSelectAPI"
-              },
-              "next": {
-                "title": "OnInit API",
-                "permalink": "/docs/ONDCAPI/OnInitAPI"
-              }
-            },
-            {
-              "unversionedId": "ONDCAPI/On SearchAPI",
-              "id": "ONDCAPI/On SearchAPI",
-              "title": "Hello",
-              "description": "This is my first Docusaurus document!",
-              "source": "@site/docs/ONDCAPI/On SearchAPI.md",
-              "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/On SearchAPI",
-              "permalink": "/docs/ONDCAPI/On SearchAPI",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/On SearchAPI.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "OnSearch API",
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Search API",
-                "permalink": "/docs/ONDCAPI/SearchAPI"
-              },
-              "next": {
-                "title": "Select API",
-                "permalink": "/docs/ONDCAPI/SelectAPI"
-              }
-            },
-            {
-              "unversionedId": "ONDCAPI/OnInitAPI",
-              "id": "ONDCAPI/OnInitAPI",
-              "title": "OnInitAPI",
-              "description": "",
-              "source": "@site/docs/ONDCAPI/OnInitAPI.md",
-              "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/OnInitAPI",
-              "permalink": "/docs/ONDCAPI/OnInitAPI",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/OnInitAPI.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_label": "OnInit API",
-                "sidebar_position": 6
+                "sidebar_label": "Confirm API",
+                "sidebar_position": 4
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -104,22 +48,22 @@
               }
             },
             {
-              "unversionedId": "ONDCAPI/OnSelectAPI",
-              "id": "ONDCAPI/OnSelectAPI",
-              "title": "OnSelectAPI",
+              "unversionedId": "ONDCAPI/InitAPI",
+              "id": "ONDCAPI/InitAPI",
+              "title": "InitAPI",
               "description": "",
-              "source": "@site/docs/ONDCAPI/OnSelectAPI.md",
+              "source": "@site/docs/ONDCAPI/InitAPI.md",
               "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/OnSelectAPI",
-              "permalink": "/docs/ONDCAPI/OnSelectAPI",
+              "slug": "/ONDCAPI/InitAPI",
+              "permalink": "/docs/ONDCAPI/InitAPI",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/OnSelectAPI.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/InitAPI.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "OnSelect API",
-                "sidebar_position": 4
+                "sidebar_label": "Init API",
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -127,8 +71,8 @@
                 "permalink": "/docs/ONDCAPI/SelectAPI"
               },
               "next": {
-                "title": "Init API",
-                "permalink": "/docs/ONDCAPI/InitAPI"
+                "title": "Confirm API",
+                "permalink": "/docs/ONDCAPI/comfirm"
               }
             },
             {
@@ -183,8 +127,8 @@
                 "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
               },
               "next": {
-                "title": "OnSearch API",
-                "permalink": "/docs/ONDCAPI/On SearchAPI"
+                "title": "Select API",
+                "permalink": "/docs/ONDCAPI/SelectAPI"
               }
             },
             {
@@ -200,19 +144,19 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/SelectAPI.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_label": "Select API",
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "OnSearch API",
-                "permalink": "/docs/ONDCAPI/On SearchAPI"
+                "title": "Search API",
+                "permalink": "/docs/ONDCAPI/SearchAPI"
               },
               "next": {
-                "title": "OnSelect API",
-                "permalink": "/docs/ONDCAPI/OnSelectAPI"
+                "title": "Init API",
+                "permalink": "/docs/ONDCAPI/InitAPI"
               }
             },
             {
@@ -399,18 +343,8 @@
                   },
                   {
                     "type": "doc",
-                    "id": "ONDCAPI/On SearchAPI",
-                    "label": "OnSearch API"
-                  },
-                  {
-                    "type": "doc",
                     "id": "ONDCAPI/SelectAPI",
                     "label": "Select API"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ONDCAPI/OnSelectAPI",
-                    "label": "OnSelect API"
                   },
                   {
                     "type": "doc",
@@ -419,8 +353,8 @@
                   },
                   {
                     "type": "doc",
-                    "id": "ONDCAPI/OnInitAPI",
-                    "label": "OnInit API"
+                    "id": "ONDCAPI/comfirm",
+                    "label": "Confirm API"
                   }
                 ],
                 "link": {

@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-d5a": {
+  "/docs-ebc": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-536-4e4"
@@ -68,21 +68,13 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-seller-api-20-d-9fb"
   },
+  "/docs/ONDCAPI/comfirm-3b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ondcapi-comfirm-33-b-672"
+  },
   "/docs/ONDCAPI/InitAPI-649": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ondcapi-init-api-258-d61"
-  },
-  "/docs/ONDCAPI/On SearchAPI-1c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-on-search-api-940-96d"
-  },
-  "/docs/ONDCAPI/OnInitAPI-a3b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-on-init-ap-ib-1-e-1d4"
-  },
-  "/docs/ONDCAPI/OnSelectAPI-034": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-on-select-ap-iea-4-dcd"
   },
   "/docs/ONDCAPI/Overview-About-ONDC-API-1f6": {
     "__comp": "__comp---theme-doc-item-178-a40",

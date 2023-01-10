@@ -4,8 +4,8 @@
   "permalink": "/docs/category/seller-api",
   "navigation": {
     "previous": {
-      "title": "OnInit API",
-      "permalink": "/docs/ONDCAPI/OnInitAPI"
+      "title": "Confirm API",
+      "permalink": "/docs/ONDCAPI/comfirm"
     },
     "next": {
       "title": "Location API",

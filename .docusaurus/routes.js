@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd5a'),
+    component: ComponentCreator('/docs', 'ebc'),
     routes: [
       {
         path: '/docs/category/ondc-api',
@@ -65,26 +65,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/ONDCAPI/comfirm',
+        component: ComponentCreator('/docs/ONDCAPI/comfirm', '3b6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/ONDCAPI/InitAPI',
         component: ComponentCreator('/docs/ONDCAPI/InitAPI', '649'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/ONDCAPI/On SearchAPI',
-        component: ComponentCreator('/docs/ONDCAPI/On SearchAPI', '1c7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/ONDCAPI/OnInitAPI',
-        component: ComponentCreator('/docs/ONDCAPI/OnInitAPI', 'a3b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/ONDCAPI/OnSelectAPI',
-        component: ComponentCreator('/docs/ONDCAPI/OnSelectAPI', '034'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
