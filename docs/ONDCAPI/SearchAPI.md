@@ -2,6 +2,12 @@
 sidebar_label: "Search API"
 sidebar_position: 1
 ---
+## About the API 
+
+- In the scenario below, Ramesh wants to buy 100ml of Milk using the  Buyer App, He searches the product using the product name, Using Search API to discover the product based on Ramesh's specific location from the large network of seller available in the ONDC 
+
+
+- In Simple words, Search API is used to Discover the product for the Buyer from theONDC 
 
 - The Search API allows user to search the full list of products based on the search query available in the Care Commerce.
 
@@ -136,6 +142,19 @@ So the Search request response will be unique message id and +ve Ack
 ```
 
 ## on_search API:
+
+## About the API : 
+
+- OnSearch API is a call back API, ie.,Whenever the Buyer App calls the Search API with specific parameters, the OnSearch API can be called using the Unique Message ID to get the reponse for the Search API request. 
+- An Unique  Message ID will be generated for the specific request to the Buyer, Using the Unique Message ID, The product details can be fetched for the buyer. 
+
+- In Simple words OnSearch API helps to get products details to be displayed to the buyer.
+
+
+
+
+
+
 
 
 ```bash
