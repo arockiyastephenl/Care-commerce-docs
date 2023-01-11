@@ -4,47 +4,47 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '1a3'),
+    component: ComponentCreator('/__docusaurus/debug', 'a3d'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '0d9'),
+    component: ComponentCreator('/__docusaurus/debug/config', '329'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'bd0'),
+    component: ComponentCreator('/__docusaurus/debug/content', '863'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '242'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '011'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '03d'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '3a3'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'c30'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '6a1'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'dee'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '832'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '825'),
+    component: ComponentCreator('/markdown-page', 'c73'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ebc'),
+    component: ComponentCreator('/docs', '507'),
     routes: [
       {
         path: '/docs/category/ondc-api',
@@ -128,7 +128,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f8a'),
+    component: ComponentCreator('/', '8d1'),
     exact: true
   },
   {

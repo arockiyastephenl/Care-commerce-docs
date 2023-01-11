@@ -126,7 +126,7 @@
     "ONDCAPI/SelectAPI": {
       "id": "ONDCAPI/SelectAPI",
       "title": "SelectAPI",
-      "description": "End user will choose the onsearch response list of products. Select api will help to add the products to the cart.",
+      "description": "About the API :",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-Care-Commerce": {
