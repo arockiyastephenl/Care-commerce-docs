@@ -3,7 +3,7 @@ sidebar_label: "Search API"
 sidebar_position: 1
 ---
 ## About the API 
-
+![search](https://i.imgur.com/UKwUHDl.png)
 - In the scenario below, Ramesh wants to buy 100ml of Milk using the  Buyer App, He searches the product using the product name, Using Search API to discover the product based on Ramesh's specific location from the large network of seller available in the ONDC 
 
 
