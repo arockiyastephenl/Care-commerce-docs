@@ -2,7 +2,7 @@
   "unversionedId": "ONDCAPI/InitAPI",
   "id": "ONDCAPI/InitAPI",
   "title": "InitAPI",
-  "description": "",
+  "description": "Flow Diagram of Select and on_select",
   "source": "@site/docs/ONDCAPI/InitAPI.md",
   "sourceDirName": "ONDCAPI",
   "slug": "/ONDCAPI/InitAPI",

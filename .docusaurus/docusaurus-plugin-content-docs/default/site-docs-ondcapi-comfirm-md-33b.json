@@ -2,7 +2,7 @@
   "unversionedId": "ONDCAPI/comfirm",
   "id": "ONDCAPI/comfirm",
   "title": "comfirm",
-  "description": "",
+  "description": "Flow Diagram of Select and on_select",
   "source": "@site/docs/ONDCAPI/comfirm.md",
   "sourceDirName": "ONDCAPI",
   "slug": "/ONDCAPI/comfirm",

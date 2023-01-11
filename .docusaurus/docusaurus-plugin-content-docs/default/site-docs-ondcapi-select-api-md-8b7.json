@@ -2,7 +2,7 @@
   "unversionedId": "ONDCAPI/SelectAPI",
   "id": "ONDCAPI/SelectAPI",
   "title": "SelectAPI",
-  "description": "",
+  "description": "End user will choose the onsearch response list of products. Select api will help to add the products to the cart.",
   "source": "@site/docs/ONDCAPI/SelectAPI.md",
   "sourceDirName": "ONDCAPI",
   "slug": "/ONDCAPI/SelectAPI",

@@ -102,13 +102,13 @@
     "ONDCAPI/comfirm": {
       "id": "ONDCAPI/comfirm",
       "title": "comfirm",
-      "description": "",
+      "description": "Flow Diagram of Select and on_select",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/InitAPI": {
       "id": "ONDCAPI/InitAPI",
       "title": "InitAPI",
-      "description": "",
+      "description": "Flow Diagram of Select and on_select",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/Overview-About-ONDC-API": {
@@ -126,7 +126,7 @@
     "ONDCAPI/SelectAPI": {
       "id": "ONDCAPI/SelectAPI",
       "title": "SelectAPI",
-      "description": "",
+      "description": "End user will choose the onsearch response list of products. Select api will help to add the products to the cart.",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-Care-Commerce": {
