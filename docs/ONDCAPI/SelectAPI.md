@@ -3,11 +3,7 @@ sidebar_label: 'Select API'
 sidebar_position: 2
 ---
 
-## About the API : 
 
-- The Select API allows the buyer to select the products listed by the various sellers in ONDC. It enables the user to add and also remove products from the shopping cart.
-
-- In the search results, the user selects and adds the item(s) to the cart. In addition, the user should be able to change the quantity of items or remove them from the cart 
 
 End user will choose the onsearch response list of products. Select api will help to add the products to the cart.
 
