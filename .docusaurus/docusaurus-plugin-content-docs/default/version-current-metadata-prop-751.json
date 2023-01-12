@@ -108,7 +108,7 @@
     "ONDCAPI/InitAPI": {
       "id": "ONDCAPI/InitAPI",
       "title": "InitAPI",
-      "description": "Flow Diagram of Select and on_select",
+      "description": "About API :",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/Overview-About-ONDC-API": {
