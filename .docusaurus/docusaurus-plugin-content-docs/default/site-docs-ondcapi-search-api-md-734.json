@@ -2,7 +2,7 @@
   "unversionedId": "ONDCAPI/SearchAPI",
   "id": "ONDCAPI/SearchAPI",
   "title": "SearchAPI",
-  "description": "- The Search API allows user to search the full list of products based on the search query available in the Care Commerce.",
+  "description": "About the API",
   "source": "@site/docs/ONDCAPI/SearchAPI.md",
   "sourceDirName": "ONDCAPI",
   "slug": "/ONDCAPI/SearchAPI",

@@ -2,6 +2,12 @@
 sidebar_label: "Search API"
 sidebar_position: 1
 ---
+## About the API 
+![search](https://i.imgur.com/UKwUHDl.png)
+- In the scenario below, Ramesh wants to buy 100ml of Milk using the  Buyer App, He searches the product using the product name, Using Search API to discover the product based on Ramesh's specific location from the large network of seller available in the ONDC 
+
+
+- In Simple words, Search API is used to Discover the product for the Buyer from theONDC 
 
 - The Search API allows user to search the full list of products based on the search query available in the Care Commerce.
 
@@ -59,8 +65,8 @@ Description: 		  On the buyer node, the user searches for a Product using the na
 | item.descriptor.name      | string             | Name of the Product to be searched.            |
 | fulfillment.type          | string             | Defines the Delivery mode of the Particular Product.            |
 | fulfillment.end.location.gps  | string    | Search the Product available in around the given GPS Coordinates.      |
-| payment.@ondc/org/buyer_app_finder_fee_type  | string    |  Buyer app commission type. Enum: Amount, Percent      |
-| payment.@ondc/org/buyer_app_finder_fee_amount  | string   |  Buyer app commission amount.   |
+| payment.@ondc/org/buyer_app_<br/>finder_fee_type  | string    |  Buyer app commission type. Enum: Amount, Percent      |
+| payment.@ondc/org/buyer_app_<br/>finder_fee_amount  | string   |  Buyer app commission amount.   |
 
 
 
@@ -137,6 +143,19 @@ So the Search request response will be unique message id and +ve Ack
 
 ## on_search API:
 
+## About the API : 
+
+- OnSearch API is a call back API, ie.,Whenever the Buyer App calls the Search API with specific parameters, the OnSearch API can be called using the Unique Message ID to get the reponse for the Search API request. 
+- An Unique  Message ID will be generated for the specific request to the Buyer, Using the Unique Message ID, The product details can be fetched for the buyer. 
+
+- In Simple words OnSearch API helps to get products details to be displayed to the buyer.
+
+
+
+
+
+
+
 
 ```bash
 Method:               POST
@@ -177,7 +196,7 @@ messageId=37fd9c02-0f8b-4a3e-8397-b9ea64258c57
 					""
 				],
 				"long_desc": "We are a collaborative commerce platform",
-				"name": "Innoviti",
+				"name": "carecommerce",
 				"short_desc": "We are a collaborative commerce platform that is using data intelligence to turn simple payment transactions into powerful purchase tools that urge consumers to buy more products and better products from you.",
 				"symbol": ""
 			},
@@ -201,7 +220,7 @@ messageId=37fd9c02-0f8b-4a3e-8397-b9ea64258c57
 						""
 					],
 					"long_desc": "We are a collaborative commerce platform",
-					"name": "Innoviti",
+					"name": "carecommerce",
 					"short_desc": "We are a collaborative commerce platform that is using data intelligence to turn simple payment transactions into powerful purchase tools that urge consumers to buy more products and better products from you.",
 					"symbol": ""
 				},

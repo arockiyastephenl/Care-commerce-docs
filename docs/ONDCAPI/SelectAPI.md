@@ -3,7 +3,7 @@ sidebar_label: 'Select API'
 sidebar_position: 2
 ---
 
-Changes Made asddddd
+
 
 End user will choose the onsearch response list of products. Select api will help to add the products to the cart.
 
@@ -11,12 +11,14 @@ End user will choose the onsearch response list of products. Select api will hel
 Method:               POST
 Required Parameters:  Need item_details,quote_details,provider_details,fulfillments_details
 Url: 			      /protocol/v1/select
-Description: 		  On the buyer node, the user selects item(s) from the search results and adds them to the cart. The user should also be able to change the quantity of items or remove the items from the cart
+Description: 		  Select API helps the buyer to Add or remove the product from the Cart from the response received throught the OnSearch API
 ```
 
 ## Flow Diagram of Select and on_select
 
 ![select](https://i.imgur.com/sbYoRit.png)
+
+
 
 ## Request Sample Data:
 
@@ -87,5 +89,128 @@ Description: 		  On the buyer node, the user selects item(s) from the search res
 "status": "ACK"
 }
 }
+}
+```
+## on_select API:
+
+## About the API : 
+
+Buyer selects the product throught the Buyer app using Select API,At the time, Seller App - end receives the Order details. 
+OnSelect API is a call back API,Using the OnSearch API, you can get the Select API's response
+The response will be the Quotation of the Selected products using the Select API, this includes the Delivery option, Delivery charges etc..
+
+
+```bash
+Method:               POST
+Required Parameters:   Need provider_details,location_details,bpp_details,category_details,fulfillment_details
+Url: 			      /protocol/v1/on_select
+Description: 		  OnSelect API returns a quotation of the total products in the cart. Quotation includes the Price, Delivery options , Delivery Charges of the product.
+```
+
+## Request Sample Data
+
+```json
+messageId=37fd9c02-0f8b-4a3e-8397-b9ea64258c57
+
+```
+## Response Sample Data
+
+```json
+ {
+  "context": {
+    "action": "on_select",
+    "bap_id": "carecommerce.in",
+    "bap_uri": "https://carecommerce.in/ondc/1.0/",
+    "bpp_id": "carecommerce.in",
+    "bpp_uri": "https://carecommerce.in/ondc/v1/148762/bpp/",
+    "city": "std:080",
+    "core_version": "1.0.0",
+    "country": "IND",
+    "domain": "nic2004:52110",
+    "message_id": "4ef58f69-6186-48cb-a2e2-02eeba51ee37",
+    "timestamp": "2022-11-17T12:35:43.037Z",
+    "transaction_id": "9b023f42-8532-4aa0-9f13-6cc909f1ae95",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "fulfillments": [
+        {
+          "@ondc/org/TAT": "P4D",
+          "@ondc/org/category": "Immediate Delivery",
+          "@ondc/org/provider_name": "careaommerce",
+          "id": 1,
+          "state": {
+            "descriptor": {
+              "name": "Serviceable"
+            }
+          },
+          "tracking": true
+        }
+      ],
+      "items": [
+        {
+          "fulfillment_id": "1",
+          "id": "42602097"
+        }
+      ],
+      "provider": {
+        "id": "111863"
+      },
+      "quote": {
+        "breakup": [
+          {
+            "@ondc/org/item_id": "42602097",
+            "@ondc/org/item_quantity": {
+              "count": 1
+            },
+            "@ondc/org/title_type": "item",
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": 99
+              },
+              "quantity": {
+                "available": {
+                  "count": "100"
+                },
+                "maximum": {
+                  "count": "100"
+                }
+              }
+            },
+            "price": {
+              "currency": "INR",
+              "value": 99
+            },
+            "title": "Butter milk Amul"
+          },
+          {
+            "@ondc/org/item_id": "",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": 23
+            },
+            "title": "Delivery charges"
+          },
+          {
+            "@ondc/org/item_id": "",
+            "@ondc/org/title_type": "packing",
+            "price": {
+              "currency": "INR",
+              "value": 25
+            },
+            "title": "Packing charges"
+          }
+        ],
+        "price": {
+          "currency": "INR",
+          "value": "147.0"
+        },
+        "ttl": "P1D"
+      }
+    }
+  }
 }
 ```
