@@ -102,7 +102,7 @@
     "ONDCAPI/comfirm": {
       "id": "ONDCAPI/comfirm",
       "title": "comfirm",
-      "description": "Flow Diagram of Select and on_select",
+      "description": "About the API:",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/InitAPI": {
@@ -126,7 +126,7 @@
     "ONDCAPI/SelectAPI": {
       "id": "ONDCAPI/SelectAPI",
       "title": "SelectAPI",
-
+      "description": "About the API :",
       "sidebar": "tutorialSidebar"
     },
     "Overiview/Overview-0f-Care-Commerce": {

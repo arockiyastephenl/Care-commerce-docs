@@ -9,6 +9,8 @@ OnSelect API helps to get the Quotation of the products in the Cart, Once the Bu
 
 During init api call Logistic app search and onsearch API will be called from the seller side.
 
+## API Overview Diagram:
+![init](https://i.imgur.com/8lyxNec.png)
 
 
 ```json
@@ -18,7 +20,7 @@ Url: 			      /protocol/v1/init
 Description: 		  init API helps the buyer to place the Order in the Cart of the Buyer Application. 
 . The user should also be able to change the quantity of items or remove the items from the cart
 ```
-## Flow Diagram of Select and on_select
+## Flow Diagram of Select and On_Select
 
 ![select](https://i.imgur.com/sbYoRit.png)
 
@@ -123,7 +125,18 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
 ```
 
 
-## on_init API:
+## On_Init API:
+
+OnInit API is the response for the Init API, which has the status of the Seller’s Approval for the Order  
+
+Once the Init API is invoked for the Order Creation as a Send request , OnInit API sends the response of the seller’s approval for acceptance or rejection of the order. 
+An order shall be automatically rejected if the seller does not act within the predefined time frame for approval by the seller or the same happen if the seller manually rejects the order request.
+
+If the seller accepts the buyer’s Order request from Init API,Buy may have a status of Order acceptance. 
+
+No Response by Seller - Order Auto Rejected
+Seller accepts Order - Order Acceptance Status
+Seller rejects Order - Order Rejection Status 
 
 
 ```bash
