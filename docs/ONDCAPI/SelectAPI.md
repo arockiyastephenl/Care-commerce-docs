@@ -2,10 +2,18 @@
 sidebar_label: 'Select API'
 sidebar_position: 2
 ---
+## About the API : 
+
+The Select API allows the buyer to select the products listed by the various sellers in ONDC. It enables the user to add and also remove products from the shopping cart.
+
+In the search results, the user selects and adds the item(s) to the cart. In addition, the user should be able to change the quantity of items or remove them from the cart 
 
 
 
 End user will choose the onsearch response list of products. Select api will help to add the products to the cart.
+
+## API Overview Diagram:
+![select](https://i.imgur.com/JWxSoLN.png)
 
 ```bash
 Method:               POST
@@ -14,7 +22,13 @@ Url: 			      /protocol/v1/select
 Description: 		  Select API helps the buyer to Add or remove the product from the Cart from the response received throught the OnSearch API
 ```
 
-## Flow Diagram of Select and on_select
+
+| Parameter                  | Data type | Description                                                                                                                                 |
+| -------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| message.order.fulfillments | Array     | Fulfillment field explain the delivery or pickup location of the customer. Eg: it contains the GPS coordinates long and lat 13.0827,80.2707 |
+| message.order.item         | Array     | Item field has the list of customer selected product details from the list of products of a search response. Eg: It explains the cart       |
+| message.order.provider     | Object    | Provider field has the details about select products that were selling from whom. Ex: saravana store                                        |
+## Flow Diagram of Select and On_Select
 
 ![select](https://i.imgur.com/sbYoRit.png)
 
@@ -91,7 +105,7 @@ Description: 		  Select API helps the buyer to Add or remove the product from th
 }
 }
 ```
-## on_select API:
+## On_Select API:
 
 ## About the API : 
 

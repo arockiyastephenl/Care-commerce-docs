@@ -20,14 +20,17 @@ Buyer Application can use Search API by Multiple ways:
 3. Search Product by Catagory (Based on the Product Catagory)
 4. Search Product by Fulfillment (Based on the specified drop location or Pickup Location)
 
-```bash
+## API Overview Diagram:
+![search](https://i.imgur.com/6Ng6BWb.png)
+
+```ruby
 Method:               POST
-Required Parameters:  Need city name and payment details
+Required Parameters:  Need Products name and cutomer locations
 Url: 			      /protocol/v1/search
 Description: 		  On the buyer node, the user searches for a Product using the name (change based on requirements). The user expects a list of Products with matching name
 ```
 
-## Flow Diagram of Search and on_search
+## Flow Diagram of Search and On_Search
 ![search](https://i.imgur.com/VvS3C70.png)
 
 ### Flow  
@@ -141,7 +144,7 @@ So the Search request response will be unique message id and +ve Ack
 
 ```
 
-## on_search API:
+## On_Search API:
 
 ## About the API : 
 
@@ -164,6 +167,11 @@ Url: 			      /protocol/v1/on_search
 Description: 		  The seller node receives a search query and based on the request, it identifies matching items from the various seller catalogs on the platform. It consolidates all matching results and returns a list of items
 ```
 
+| Parameter                        | Data type | Description                                                                      |
+| -------------------------------- | --------- | -------------------------------------------------------------------------------- |
+| message.catalog.bpp/fulfillments | Object    | This field will give the details about the delivery type and delivery method     |
+| message.catalog.bpp/descriptor   | Object    | Details about the seller who sell the product. Example name,store details,etc.,  |
+| message.catalog.bpp/providers    | Array     | This field contains the list of products that match the search request. Eg: milk |
 ## Request Sample Data
 
 ```json

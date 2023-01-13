@@ -2,6 +2,16 @@
 sidebar_label: 'Confirm API'
 sidebar_position: 4
 ---
+## About the API:
+Confirm API helps to confirm the order and to proceed the payment using preferred methods of payment facilitated by the Buyer app. 
+Buyer receives the Updated quote and policies from the seller for confirmation. 
+The Confirm API request includes the Payment mode the buyer wish to proceed with the order. 
+The Payment mode may be Prepaid Payment or the Cash on Delivey (COD) 
+Prepaid Payment : Buyer App can collect Prepaid Orders payment with the permission of Seller App 
+Postpaid/ Cash on Delivery Payment :  Seller app can collect Cash on delivery payment with the permission of Buyer app 
+
+## API Overview Diagram:
+![confirm](https://i.imgur.com/kX74cZH.png)
 
 ```bash
 Method:               POST
@@ -197,14 +207,16 @@ Description: 		  On the buyer node, the user selects item(s) from the search res
 ```
 
 
-## on_init API:
+## On_Confirm API:
 
+## About the API:
+	On_confirm API is the callback API. This API validates status of the Payment and deliver or pickup location of the order and also order id .
 
 ```bash
 Method:               POST
-Required Parameters:   Need provider_details,location_details,bpp_details,category_details,fulfillment_details
-Url: 			      /protocol/v1/on_search
-Description: 		  The seller node receives a search query and based on the request, it identifies matching items from the various seller catalogs on the platform. It consolidates all matching results and returns a list of items
+Required Parameters:   Need items details ,state=active,billing details,fulfillments details,quote,payment
+Url: 			      /protocol/v1/on_confirm
+Description: 		  The seller node receives the confirmation from the user, and validates the proof or promise of payment. The seller returns a confirmed order ID and the confirmed details of the fulfilment immediately.
 ```
 
 ## Request Sample Data

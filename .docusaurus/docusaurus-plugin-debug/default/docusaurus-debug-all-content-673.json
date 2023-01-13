@@ -15,15 +15,15 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\ZStorage\\Colakin\\ONDC\\Public Site\\Care-commerce-docs\\sidebars.js",
-          "contentPath": "C:\\ZStorage\\Colakin\\ONDC\\Public Site\\Care-commerce-docs\\docs",
-          "contentPathLocalized": "C:\\ZStorage\\Colakin\\ONDC\\Public Site\\Care-commerce-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "ONDCAPI/comfirm",
               "id": "ONDCAPI/comfirm",
               "title": "comfirm",
-              "description": "Flow Diagram of Select and on_select",
+              "description": "About the API:",
               "source": "@site/docs/ONDCAPI/comfirm.md",
               "sourceDirName": "ONDCAPI",
               "slug": "/ONDCAPI/comfirm",
@@ -135,7 +135,7 @@
               "unversionedId": "ONDCAPI/SelectAPI",
               "id": "ONDCAPI/SelectAPI",
               "title": "SelectAPI",
-
+              "description": "About the API :",
               "source": "@site/docs/ONDCAPI/SelectAPI.md",
               "sourceDirName": "ONDCAPI",
               "slug": "/ONDCAPI/SelectAPI",
