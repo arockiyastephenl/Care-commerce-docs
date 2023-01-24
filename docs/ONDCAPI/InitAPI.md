@@ -5,12 +5,14 @@ sidebar_position: 3
 
 ## About API : 
 
-OnSelect API helps to get the Quotation of the products in the Cart, Once the Buyer Agrees to buy the products, Using this init API Order can be Checkout in the Buyer Application. Billing details and fulfillment details also getting from the seller app. 
+OnSelect API helps to get the Quotation of the products in the Cart, Once the Buyer Agrees to buy the products, Using this init API Order can be Checkout in the Buyer Application.
 
-During init api call Logistic app search and onsearch API will be called from the seller side.
+Using the Init API, Buyer can instantly confirm the order. By using the Init API, the seller places the order at the price declared by the buyer for the quantity specified by the buyer.
+Init API sends the Order Initialization request and Checks for the seller approval for acceptance or rejection of the order by the seller. 
+
 
 ## API Overview Diagram:
-![init](https://i.imgur.com/5mD0guC.png)
+![init](https://i.imgur.com/Ph0jqJr.png)
 
 
 ```json
@@ -127,7 +129,7 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
 
 ## On_Init API:
 
-OnInit API is the response for the Init API, which has the status of the Seller’s Approval for the Order  
+OnInit API is the response for the Init API, which has the status of the Seller’s Approval for the Order.
 
 Once the Init API is invoked for the Order Creation as a Send request , OnInit API sends the response of the seller’s approval for acceptance or rejection of the order. 
 An order shall be automatically rejected if the seller does not act within the predefined time frame for approval by the seller or the same happen if the seller manually rejects the order request.
@@ -137,6 +139,7 @@ If the seller accepts the buyer’s Order request from Init API,Buy may have a s
 No Response by Seller - Order Auto Rejected
 Seller accepts Order - Order Acceptance Status
 Seller rejects Order - Order Rejection Status 
+
 
 
 ```bash
