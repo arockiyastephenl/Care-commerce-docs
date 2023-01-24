@@ -83,15 +83,15 @@
         "items": [
           {
             "type": "link",
-            "label": "Location API",
-            "href": "/docs/StoreAPI/Location_API",
-            "docId": "StoreAPI/Location_API"
-          },
-          {
-            "type": "link",
             "label": "Store API",
             "href": "/docs/StoreAPI/intro",
             "docId": "StoreAPI/intro"
+          },
+          {
+            "type": "link",
+            "label": "Location API",
+            "href": "/docs/StoreAPI/Location_API",
+            "docId": "StoreAPI/Location_API"
           }
         ],
         "href": "/docs/category/seller-api"
@@ -149,8 +149,8 @@
     },
     "StoreAPI/intro": {
       "id": "StoreAPI/intro",
-      "title": "Hello",
-      "description": "Let's discover The Care Commerce Store API.",
+      "title": "Care Commerce Store API",
+      "description": "This document aims to enable developers to work with the various API frameworks such as Store Registration and Delivery and Payment Modes in the Care Commerce Application. Use this API to initiate seller registration on Care Commerce.",
       "sidebar": "tutorialSidebar"
     },
     "StoreAPI/Location_API": {
