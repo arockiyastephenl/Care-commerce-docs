@@ -148,15 +148,9 @@ So the Search request response will be unique message id and +ve Ack
 
 ## About the API : 
 
-- OnSearch API is a call back API, ie.,Whenever the Buyer App calls the Search API with specific parameters, the OnSearch API can be called using the Unique Message ID to get the reponse for the Search API request. 
-- An Unique  Message ID will be generated for the specific request to the Buyer, Using the Unique Message ID, The product details can be fetched for the buyer. 
+Whenever the Buyer App calls the Search API with specific parameters, the OnSearch API can be called using the Unique Message ID to get the reponse for the Search API request. 
 
-- In Simple words OnSearch API helps to get products details to be displayed to the buyer.
-
-
-
-
-
+An Unique  Message ID will be generated for the specific request to the Buyer, Using the Unique Message ID, The product details can be fetched for the buyer. 
 
 
 
