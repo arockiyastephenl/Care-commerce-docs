@@ -10,7 +10,7 @@ OnSelect API helps to get the Quotation of the products in the Cart, Once the Bu
 During init api call Logistic app search and onsearch API will be called from the seller side.
 
 ## API Overview Diagram:
-![init](https://i.imgur.com/8lyxNec.png)
+![init](https://i.imgur.com/5mD0guC.png)
 
 
 ```json

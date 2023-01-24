@@ -11,7 +11,7 @@ Prepaid Payment : Buyer App can collect Prepaid Orders payment with the permissi
 Postpaid/ Cash on Delivery Payment :  Seller app can collect Cash on delivery payment with the permission of Buyer app 
 
 ## API Overview Diagram:
-![confirm](https://i.imgur.com/kX74cZH.png)
+![confirm](https://i.imgur.com/uNWd5dm.png)
 
 ```bash
 Method:               POST
@@ -210,7 +210,12 @@ Description: 		  On the buyer node, the user selects item(s) from the search res
 ## On_Confirm API:
 
 ## About the API:
-	On_confirm API is the callback API. This API validates status of the Payment and deliver or pickup location of the order and also order id .
+On_confirm API is the callback API. This API validates status of the Payment and deliver or pickup location of the order and also order id .
+
+OnConfirm API is the response for the Confirm API, which has the status of the Seller’s Approval for the Order.
+Confirm API sends the Order Confirmation from the user, validates the proof of payment. OnConfirm returns a Confirmed Order ID as a response. 
+Buyer can use the Order ID to know the Order details, Status of the Payment.
+
 
 ```bash
 Method:               POST

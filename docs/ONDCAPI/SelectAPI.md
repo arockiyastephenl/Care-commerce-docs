@@ -13,7 +13,7 @@ In the search results, the user selects and adds the item(s) to the cart. In add
 End user will choose the onsearch response list of products. Select api will help to add the products to the cart.
 
 ## API Overview Diagram:
-![select](https://i.imgur.com/JWxSoLN.png)
+![select](https://i.imgur.com/YIBmDXX.png)
 
 ```bash
 Method:               POST
