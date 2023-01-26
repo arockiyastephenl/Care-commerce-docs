@@ -71,6 +71,12 @@
             "label": "Confirm API",
             "href": "/docs/ONDCAPI/comfirm",
             "docId": "ONDCAPI/comfirm"
+          },
+          {
+            "type": "link",
+            "label": "Flow of Logistic API",
+            "href": "/docs/ONDCAPI/logisticapi",
+            "docId": "ONDCAPI/logisticapi"
           }
         ],
         "href": "/docs/category/ondc-api"
@@ -109,6 +115,12 @@
       "id": "ONDCAPI/InitAPI",
       "title": "InitAPI",
       "description": "About API :",
+      "sidebar": "tutorialSidebar"
+    },
+    "ONDCAPI/logisticapi": {
+      "id": "ONDCAPI/logisticapi",
+      "title": "logisticapi",
+      "description": "Logistic API flow On ONDC",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/Overview-About-ONDC-API": {

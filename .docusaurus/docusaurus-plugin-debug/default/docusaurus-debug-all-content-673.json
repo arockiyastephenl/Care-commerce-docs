@@ -43,8 +43,8 @@
                 "permalink": "/docs/ONDCAPI/InitAPI"
               },
               "next": {
-                "title": "Seller API",
-                "permalink": "/docs/category/seller-api"
+                "title": "Flow of Logistic API",
+                "permalink": "/docs/ONDCAPI/logisticapi"
               }
             },
             {
@@ -73,6 +73,34 @@
               "next": {
                 "title": "Confirm API",
                 "permalink": "/docs/ONDCAPI/comfirm"
+              }
+            },
+            {
+              "unversionedId": "ONDCAPI/logisticapi",
+              "id": "ONDCAPI/logisticapi",
+              "title": "logisticapi",
+              "description": "Logistic API flow On ONDC",
+              "source": "@site/docs/ONDCAPI/logisticapi.md",
+              "sourceDirName": "ONDCAPI",
+              "slug": "/ONDCAPI/logisticapi",
+              "permalink": "/docs/ONDCAPI/logisticapi",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/logisticapi.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "Flow of Logistic API",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Confirm API",
+                "permalink": "/docs/ONDCAPI/comfirm"
+              },
+              "next": {
+                "title": "Seller API",
+                "permalink": "/docs/category/seller-api"
               }
             },
             {
@@ -355,6 +383,11 @@
                     "type": "doc",
                     "id": "ONDCAPI/comfirm",
                     "label": "Confirm API"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ONDCAPI/logisticapi",
+                    "label": "Flow of Logistic API"
                   }
                 ],
                 "link": {

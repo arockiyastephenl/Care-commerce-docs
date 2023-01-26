@@ -49,7 +49,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-ebc": {
+  "/docs-32c": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-536-4e4"
@@ -75,6 +75,10 @@
   "/docs/ONDCAPI/InitAPI-649": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-ondcapi-init-api-258-d61"
+  },
+  "/docs/ONDCAPI/logisticapi-c34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ondcapi-logisticapi-49-b-d5d"
   },
   "/docs/ONDCAPI/Overview-About-ONDC-API-1f6": {
     "__comp": "__comp---theme-doc-item-178-a40",
