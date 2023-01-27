@@ -21,6 +21,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "ONDCAPI/logisticapi",
+              "path": "/docs/ONDCAPI/logisticapi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "ONDCAPI/Overview-About-ONDC-API",
               "path": "/docs/ONDCAPI/Overview-About-ONDC-API",
               "sidebar": "tutorialSidebar"

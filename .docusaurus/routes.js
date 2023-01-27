@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ebc'),
+    component: ComponentCreator('/docs', '32c'),
     routes: [
       {
         path: '/docs/category/ondc-api',
@@ -73,6 +73,12 @@ export default [
       {
         path: '/docs/ONDCAPI/InitAPI',
         component: ComponentCreator('/docs/ONDCAPI/InitAPI', '649'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/ONDCAPI/logisticapi',
+        component: ComponentCreator('/docs/ONDCAPI/logisticapi', 'c34'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

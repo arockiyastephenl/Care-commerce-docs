@@ -4,8 +4,8 @@
   "permalink": "/docs/category/seller-api",
   "navigation": {
     "previous": {
-      "title": "Confirm API",
-      "permalink": "/docs/ONDCAPI/comfirm"
+      "title": "Flow of Logistic API",
+      "permalink": "/docs/ONDCAPI/logisticapi"
     },
     "next": {
       "title": "Store API",
