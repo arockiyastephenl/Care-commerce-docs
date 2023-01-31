@@ -22,9 +22,7 @@ Peer-to-peer (P2P) API calling refers to a method of communication where two or 
 
 ## About the API:
 
-When the buyer app calls the init API, the seller app calls the search API of the logistic API.
-
-
+When the buyer app calls the init API, the seller app calls the search API of the logistic API.The seller app must provide information about the payment type for an order, the start and end location of the order, the category of the order, and the details of the payload (the items ordered), including the quantity and weight of the items, their dimensions, and their category and value. This information must be passed to the logistics provider during a search logistics API call.
 
 # Logistic search API request has
 - Fulfillment
@@ -110,7 +108,7 @@ When the buyer app calls the init API, the seller app calls the search API of th
 # On_Search Logistic API:
 
 ## About the API:
-
+The On_search API is a callback API that serves as the response to the search API request. The response of the Onsearch API will be a list of logistic providers and their delivery information. Sellers can use this information to select the best delivery provider that meets their requirements
 ## Sample Logistic On_Search Response payload:
 
 ```json
@@ -412,7 +410,7 @@ When the buyer app calls the init API, the seller app calls the search API of th
 ## Logistic init API
 
 ## About the API
-
+The "init API" will be called when the buyer app calls the "confirm API". The "init API" initializes the order on the logistics side. To do this, the seller needs to provide the logistics provider with information such as the item ID and category, the end user's billing address, the end user's fulfillment details (delivery location, customer contact information, and address), and the payment details of the order.
 ## Sample Logistic init request payload:
 ```json
 {
