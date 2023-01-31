@@ -21,7 +21,7 @@ Url: 			      /protocol/v1/init
 Description: 		  On the buyer node, the user selects item(s) from the search results and adds them to the cart. The user should also be able to change the quantity of items or remove the items from the cart
 ```
 ## Flow Diagram of Select and on_select
-![select](https://i.imgur.com/WtGmhCI.png)
+![select](https://i.imgur.com/REsPhj8.png)
 
 ## Request Sample Data:
 ```json
