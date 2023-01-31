@@ -28,7 +28,7 @@ Description: 		  Select API helps the buyer to Add or remove the product from th
 | message.order.provider     | Object    | Provider field has the details about select products that were selling from whom. Ex: saravana store                                        |
 ## Flow Diagram of Select and On_Select
 
-![select](https://i.imgur.com/EqSIm6x.png)
+![select](https://i.imgur.com/UCU5RYS.png)
 
 
 

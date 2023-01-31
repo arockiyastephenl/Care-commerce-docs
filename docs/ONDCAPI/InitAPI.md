@@ -24,7 +24,7 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
 ```
 ## Flow Diagram of Select and On_Select
 
-![select](https://i.imgur.com/sbYoRit.png)
+![select](https://i.imgur.com/VUkfXDy.png)
 
 ## Request Sample Data:
 
