@@ -511,7 +511,7 @@ The "init API" will be called when the buyer app calls the "confirm API". The "i
 ## Logitic On_Init API
 
 ## About the API
-
+The "on_init" API is the callback function of the "init" API. It provides a response to the "init" API request and confirms the delivery address, date and time of an order, as well as the quotation for delivery and the status of payment received.
 ## Sample Logistic On_Init Response payload:
 ```json
 {
@@ -582,6 +582,7 @@ The "init API" will be called when the buyer app calls the "confirm API". The "i
 ## Logistic Confirm API
 
 ## About the API
+The "Confirm API" is utilized to confirm delivery orders on the logistics provider's side. The seller needs to provide the order ID, logistics provider information, item information, fulfillment details (such as address, contact information, delivery start and end location, email, and phone), the equation of the order, the payment window, and any other related products. These details must be passed to the logistics provider during the execution of the "Confirm API."
 
 ## Sample Logistic Confirm request payload:
 ```json
@@ -751,7 +752,7 @@ The "init API" will be called when the buyer app calls the "confirm API". The "i
 ## Logitic On_Confirm API
 
 ## About the API
-
+The "on_confirm API" is the response of the "confirm API" request. The "on_confirm API" confirms the order with an order ID, indicating whether the order has been accepted or not. It also provides information about the item, fulfillment information, and the details of the order, which are used to confirm the order with the logistics provider.
 ## Sample Logistic On_Confirm Response payload:
 ```json
 {
@@ -827,7 +828,7 @@ The "init API" will be called when the buyer app calls the "confirm API". The "i
 ## Logistic Cancel API
 
 ## About the API
-
+The "cancel API" is used to cancel an order on both the logistics and seller side. If the seller wants to cancel the order on the logistics side, they need to provide the order ID and the reason for the cancellation.
 ## Sample Logistic Cancel request payload:
 ```json
 {
@@ -855,7 +856,7 @@ The "init API" will be called when the buyer app calls the "confirm API". The "i
 ## Logitic On_Cancel API
 
 ## About the API
-
+The "on_cancel API" is the callback API of the "cancel API." This API confirms that the order has been cancelled.
 ## Sample Logistic On_Cancel Response payload:
 ```json
 {
