@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\sidebars.js",
+          "sidebarPath": "C:\\Users\\abdab\\OneDrive\\Documents\\Kasadara-Colakin\\Care-commerce-docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,14 +34,13 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\11\\Care-commerce-docs\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\abdab\\OneDrive\\Documents\\Kasadara-Colakin\\Care-commerce-docs\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Care Commerce ",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/cclogo.svg"
@@ -70,8 +69,11 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
           "items": [
+            {
+              "label": "Docs",
+              "to": "/"
+            },
             {
               "label": "Overview",
               "to": "/docs/category/overview"
@@ -84,15 +86,8 @@ export default {
               "label": "Care Commerce",
               "to": "/docs/category/seller-api"
             }
-          ]
-        },
-        {
-          "title": null,
-          "items": []
-        },
-        {
-          "title": null,
-          "items": []
+          ],
+          "title": null
         }
       ],
       "copyright": "Copyright © 2023 Colakin Pty Ltd."

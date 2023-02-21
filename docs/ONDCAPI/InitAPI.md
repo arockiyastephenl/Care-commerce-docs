@@ -1,27 +1,27 @@
 ---
-sidebar_label: 'Init API'
+sidebar_label: "Init API"
 sidebar_position: 3
 ---
 
-## About API : 
+## About API :
 
 OnSelect API helps to get the Quotation of the products in the Cart, Once the Buyer Agrees to buy the products, Using this init API Order can be Checkout in the Buyer Application.
 
 Using the Init API, Buyer can instantly confirm the order. By using the Init API, the seller places the order at the price declared by the buyer for the quantity specified by the buyer.
-Init API sends the Order Initialization request and Checks for the seller approval for acceptance or rejection of the order by the seller. 
-
+Init API sends the Order Initialization request and Checks for the seller approval for acceptance or rejection of the order by the seller.
 
 ## API Overview Diagram:
-![init](https://i.imgur.com/Ph0jqJr.png)
 
+![init](https://i.imgur.com/Ph0jqJr.png)
 
 ```json
 Method:               POST
 Required Parameters:  Need item_details,quote_details,provider_details,fulfillments_details
 Url: 			      /protocol/v1/init
-Description: 		  init API helps the buyer to place the Order in the Cart of the Buyer Application. 
+Description: 		  init API helps the buyer to place the Order in the Cart of the Buyer Application.
 . The user should also be able to change the quantity of items or remove the items from the cart
 ```
+
 ## Flow Diagram of Select and On_Select
 
 ![select](https://i.imgur.com/VUkfXDy.png)
@@ -29,7 +29,7 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
 ## Request Sample Data:
 
 ```json
- {
+{
   "context": {
     "domain": "nic2004:52110",
     "country": "IND",
@@ -49,17 +49,21 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
     "order": {
       "provider": {
         "id": "111863",
-        "locations": [{
-          "id": 148273
-        }]
+        "locations": [
+          {
+            "id": 148273
+          }
+        ]
       },
-      "items": [{
-        "id": "42602097",
-        "quantity": {
-          "count": 1
-        },
-        "fulfillment_id": "1"
-      }],
+      "items": [
+        {
+          "id": "42602097",
+          "quantity": {
+            "count": 1
+          },
+          "fulfillment_id": "1"
+        }
+      ],
       "billing": {
         "name": "Test",
         "address": {
@@ -72,27 +76,29 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
         "email": "test@gmail.com",
         "phone": "+911234567890"
       },
-      "fulfillments": [{
-        "type": "Delivery",
-        "tracking": false,
-        "end": {
-          "location": {
-            "gps": "13.01659,77.68040",
-            "address": {
-              "name": "560016 Bengaluru Bengaluru Urban",
-              "city": "Bengaluru",
-              "state": "Karnataka",
-              "country": "IN",
-              "area_code": "560016"
+      "fulfillments": [
+        {
+          "type": "Delivery",
+          "tracking": false,
+          "end": {
+            "location": {
+              "gps": "13.01659,77.68040",
+              "address": {
+                "name": "560016 Bengaluru Bengaluru Urban",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "IN",
+                "area_code": "560016"
+              }
+            },
+            "contact": {
+              "phone": "+911234567890",
+              "email": "test@gmail.com"
             }
           },
-          "contact": {
-            "phone": "+911234567890",
-            "email": "test@gmail.com"
-          }
-        },
-        "id": "1"
-      }],
+          "id": "1"
+        }
+      ],
       "payment": {
         "collected_by": "BAP",
         "@ondc/org/collected_by_status": "Assert",
@@ -101,9 +107,10 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
     }
   }
 }
-
 ```
+
 ## Response Sample Data:
+
 ```json
 {
     "context": {
@@ -126,21 +133,18 @@ Description: 		  init API helps the buyer to place the Order in the Cart of the 
     }
 ```
 
-
 ## On_Init API:
 
 OnInit API is the response for the Init API, which has the status of the Seller’s Approval for the Order.
 
-Once the Init API is invoked for the Order Creation as a Send request , OnInit API sends the response of the seller’s approval for acceptance or rejection of the order. 
+Once the Init API is invoked for the Order Creation as a Send request , OnInit API sends the response of the seller’s approval for acceptance or rejection of the order.
 An order shall be automatically rejected if the seller does not act within the predefined time frame for approval by the seller or the same happen if the seller manually rejects the order request.
 
-If the seller accepts the buyer’s Order request from Init API,Buy may have a status of Order acceptance. 
+If the seller accepts the buyer’s Order request from Init API,Buy may have a status of Order acceptance.
 
 No Response by Seller - Order Auto Rejected
 Seller accepts Order - Order Acceptance Status
-Seller rejects Order - Order Rejection Status 
-
-
+Seller rejects Order - Order Rejection Status
 
 ```bash
 Method:               POST
@@ -155,6 +159,7 @@ Description: 		  The seller node receives a search query and based on the reques
 messageId=37fd9c02-0f8b-4a3e-8397-b9ea64258c57
 
 ```
+
 ## Response Sample Data
 
 ```json

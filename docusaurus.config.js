@@ -1,53 +1,51 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Care Commerce Documentation',
-  tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Care Commerce Documentation",
+  tagline: "",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -55,74 +53,47 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       navbar: {
-        title: 'Care Commerce ',
+        // title: 'Care Commerce ',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/cclogo.svg',
+          alt: "My Site Logo",
+          src: "img/cclogo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'Overiview/Overview-0f-E-Commerce',
-            position: 'left',
-            label: 'Overview', 
+            type: "doc",
+            docId: "Overiview/Overview-0f-E-Commerce",
+            position: "left",
+            label: "Overview",
           },
-          {to: '/docs/category/ondc-api', label: 'ONDC', position: 'left'},
-          {to: '/docs/category/seller-api', label: 'Care Commerce', position: 'left'},
-         
+          { to: "/docs/category/ondc-api", label: "ONDC", position: "left" },
+          { to: "/docs/category/seller-api", label: "Care Commerce", position: "left" },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            // title: "Docs",
             items: [
               {
-                label: 'Overview',
-                to: '/docs/category/overview',
+                label: "Docs",
+                to: "/",
               },
               {
-                label: 'ONDC',
-                to: '/docs/category/ondc-api',
+                label: "Overview",
+                to: "/docs/category/overview",
               },
               {
-                label: 'Care Commerce',
-                to: '/docs/category/seller-api',
+                label: "ONDC",
+                to: "/docs/category/ondc-api",
+              },
+              {
+                label: "Care Commerce",
+                to: "/docs/category/seller-api",
               },
             ],
-          },
-          {
-            // title: 'Community',
-            // items: [
-            //   {
-            //     label: 'Stack Overflow',
-            //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            //   },
-            //   {
-            //     label: 'Discord',
-            //     href: 'https://discordapp.com/invite/docusaurus',
-            //   },
-            //   {
-            //     label: 'Twitter',
-            //     href: 'https://twitter.com/docusaurus',
-            //   },
-            // ],
-          },
-          {
-            // title: 'More',
-            // items: [
-            //   {
-            //     label: 'Blog',
-            //     to: '/blog',
-            //   },
-            //   {
-            //     label: 'GitHub',
-            //     href: 'https://github.com/facebook/docusaurus',
-            //   },
-            // ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Colakin Pty Ltd.`,
@@ -131,7 +102,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
