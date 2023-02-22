@@ -1,19 +1,19 @@
----
-sidebar_label: "Select API"
-sidebar_position: 2
----
-
 ## About the API :
 
-The Select API allows the buyer to select the products listed by the various sellers in ONDC. It enables the user to add and also remove products from the shopping cart.
+The Select API allows the buyer to select the products listed by the
+various sellers in ONDC. It enables the user to add and also remove
+products from the shopping cart.
 
-In the search results, the user selects and adds the item(s) to the cart. In addition, the user should be able to change the quantity of items or remove them from the cart
+In the search results, the user selects and adds the item(s) to the
+cart. In addition, the user should be able to change the quantity of
+items or remove them from the cart
 
-End user will choose the onsearch response list of products. Select api will help to add the products to the cart.
+End user will choose the onsearch response list of products. Select api
+will help to add the products to the cart.
 
 ## API Overview Diagram:
 
-![select](https://i.imgur.com/IV0STHb.png)
+![select](../img/Select/api_overview.svg)
 
 ```bash
 Method:               POST
@@ -30,7 +30,7 @@ Description: 		  Select API helps the buyer to Add or remove the product from th
 
 ## Flow Diagram of Select and On_Select
 
-![select](https://i.imgur.com/UCU5RYS.png)
+![select](../img/Select/flowdiagram.svg)
 
 ## Request Sample Data:
 
@@ -115,9 +115,12 @@ Description: 		  Select API helps the buyer to Add or remove the product from th
 
 ## About the API :
 
-Buyer selects the product throught the Buyer app using Select API,At the time, Seller App - end receives the Order details.
-OnSelect API is a call back API,Using the OnSearch API, you can get the Select API's response
-The response will be the Quotation of the Selected products using the Select API, this includes the Delivery option, Delivery charges etc..
+Buyer selects the product throught the Buyer app using Select API,At the
+time, Seller App - end receives the Order details. OnSelect API is a
+call back API,Using the OnSearch API, you can get the Select API's
+response The response will be the Quotation of the Selected products
+using the Select API, this includes the Delivery option, Delivery
+charges etc..
 
 ```bash
 Method:               POST

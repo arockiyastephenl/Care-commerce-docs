@@ -67,8 +67,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Select API",
-                "permalink": "/docs/ONDCAPI/SelectAPI"
+                "title": "Overview About ONDC API",
+                "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
               },
               "next": {
                 "title": "Confirm API",
@@ -99,8 +99,8 @@
                 "permalink": "/docs/ONDCAPI/comfirm"
               },
               "next": {
-                "title": "Seller API",
-                "permalink": "/docs/category/seller-api"
+                "title": "SearchAPI",
+                "permalink": "/docs/ONDCAPI/SearchAPI"
               }
             },
             {
@@ -127,8 +127,8 @@
                 "permalink": "/docs/category/ondc-api"
               },
               "next": {
-                "title": "Search API",
-                "permalink": "/docs/ONDCAPI/SearchAPI"
+                "title": "Init API",
+                "permalink": "/docs/ONDCAPI/InitAPI"
               }
             },
             {
@@ -144,18 +144,14 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/SearchAPI.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_label": "Search API",
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Overview About ONDC API",
-                "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
+                "title": "Flow of Logistic API",
+                "permalink": "/docs/ONDCAPI/logisticapi"
               },
               "next": {
-                "title": "Select API",
+                "title": "SelectAPI",
                 "permalink": "/docs/ONDCAPI/SelectAPI"
               }
             },
@@ -172,19 +168,15 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/SelectAPI.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "Select API",
-                "sidebar_position": 2
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Search API",
+                "title": "SearchAPI",
                 "permalink": "/docs/ONDCAPI/SearchAPI"
               },
               "next": {
-                "title": "Init API",
-                "permalink": "/docs/ONDCAPI/InitAPI"
+                "title": "Seller API",
+                "permalink": "/docs/category/seller-api"
               }
             },
             {
@@ -366,16 +358,6 @@
                   },
                   {
                     "type": "doc",
-                    "id": "ONDCAPI/SearchAPI",
-                    "label": "Search API"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ONDCAPI/SelectAPI",
-                    "label": "Select API"
-                  },
-                  {
-                    "type": "doc",
                     "id": "ONDCAPI/InitAPI",
                     "label": "Init API"
                   },
@@ -388,6 +370,14 @@
                     "type": "doc",
                     "id": "ONDCAPI/logisticapi",
                     "label": "Flow of Logistic API"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ONDCAPI/SearchAPI"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ONDCAPI/SelectAPI"
                   }
                 ],
                 "link": {

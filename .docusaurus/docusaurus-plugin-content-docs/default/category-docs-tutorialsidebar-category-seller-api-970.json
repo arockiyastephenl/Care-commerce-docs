@@ -4,8 +4,8 @@
   "permalink": "/docs/category/seller-api",
   "navigation": {
     "previous": {
-      "title": "Flow of Logistic API",
-      "permalink": "/docs/ONDCAPI/logisticapi"
+      "title": "SelectAPI",
+      "permalink": "/docs/ONDCAPI/SelectAPI"
     },
     "next": {
       "title": "Store API",

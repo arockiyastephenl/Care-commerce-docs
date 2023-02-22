@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Select API",
-    "permalink": "/docs/ONDCAPI/SelectAPI"
+    "title": "Overview About ONDC API",
+    "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
   },
   "next": {
     "title": "Confirm API",

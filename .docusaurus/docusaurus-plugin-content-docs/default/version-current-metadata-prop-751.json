@@ -50,18 +50,6 @@
           },
           {
             "type": "link",
-            "label": "Search API",
-            "href": "/docs/ONDCAPI/SearchAPI",
-            "docId": "ONDCAPI/SearchAPI"
-          },
-          {
-            "type": "link",
-            "label": "Select API",
-            "href": "/docs/ONDCAPI/SelectAPI",
-            "docId": "ONDCAPI/SelectAPI"
-          },
-          {
-            "type": "link",
             "label": "Init API",
             "href": "/docs/ONDCAPI/InitAPI",
             "docId": "ONDCAPI/InitAPI"
@@ -77,6 +65,18 @@
             "label": "Flow of Logistic API",
             "href": "/docs/ONDCAPI/logisticapi",
             "docId": "ONDCAPI/logisticapi"
+          },
+          {
+            "type": "link",
+            "label": "SearchAPI",
+            "href": "/docs/ONDCAPI/SearchAPI",
+            "docId": "ONDCAPI/SearchAPI"
+          },
+          {
+            "type": "link",
+            "label": "SelectAPI",
+            "href": "/docs/ONDCAPI/SelectAPI",
+            "docId": "ONDCAPI/SelectAPI"
           }
         ],
         "href": "/docs/category/ondc-api"
