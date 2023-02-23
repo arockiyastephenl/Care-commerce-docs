@@ -22,7 +22,7 @@
     "permalink": "/docs/category/ondc-api"
   },
   "next": {
-    "title": "Init API",
-    "permalink": "/docs/ONDCAPI/InitAPI"
+    "title": "Search and OnSearch API",
+    "permalink": "/docs/ONDCAPI/Search-OnSearchAPI"
   }
 }

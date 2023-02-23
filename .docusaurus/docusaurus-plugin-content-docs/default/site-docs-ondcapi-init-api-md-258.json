@@ -11,18 +11,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/InitAPI.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
-  "frontMatter": {
-    "sidebar_label": "Init API",
-    "sidebar_position": 3
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview About ONDC API",
-    "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
+    "title": "Confirm",
+    "permalink": "/docs/ONDCAPI/Confirm"
   },
   "next": {
-    "title": "Confirm API",
-    "permalink": "/docs/ONDCAPI/comfirm"
+    "title": "SelectAPI",
+    "permalink": "/docs/ONDCAPI/SelectAPI"
   }
 }

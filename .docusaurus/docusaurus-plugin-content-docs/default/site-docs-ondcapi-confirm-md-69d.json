@@ -1,0 +1,24 @@
+{
+  "unversionedId": "ONDCAPI/Confirm",
+  "id": "ONDCAPI/Confirm",
+  "title": "Confirm",
+  "description": "About the API:",
+  "source": "@site/docs/ONDCAPI/Confirm.md",
+  "sourceDirName": "ONDCAPI",
+  "slug": "/ONDCAPI/Confirm",
+  "permalink": "/docs/ONDCAPI/Confirm",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/Confirm.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flow of Logistic API",
+    "permalink": "/docs/ONDCAPI/logisticapi"
+  },
+  "next": {
+    "title": "InitAPI",
+    "permalink": "/docs/ONDCAPI/InitAPI"
+  }
+}

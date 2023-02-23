@@ -50,15 +50,9 @@
           },
           {
             "type": "link",
-            "label": "Init API",
-            "href": "/docs/ONDCAPI/InitAPI",
-            "docId": "ONDCAPI/InitAPI"
-          },
-          {
-            "type": "link",
-            "label": "Confirm API",
-            "href": "/docs/ONDCAPI/comfirm",
-            "docId": "ONDCAPI/comfirm"
+            "label": "Search and OnSearch API",
+            "href": "/docs/ONDCAPI/Search-OnSearchAPI",
+            "docId": "ONDCAPI/Search-OnSearchAPI"
           },
           {
             "type": "link",
@@ -68,9 +62,15 @@
           },
           {
             "type": "link",
-            "label": "SearchAPI",
-            "href": "/docs/ONDCAPI/SearchAPI",
-            "docId": "ONDCAPI/SearchAPI"
+            "label": "Confirm",
+            "href": "/docs/ONDCAPI/Confirm",
+            "docId": "ONDCAPI/Confirm"
+          },
+          {
+            "type": "link",
+            "label": "InitAPI",
+            "href": "/docs/ONDCAPI/InitAPI",
+            "docId": "ONDCAPI/InitAPI"
           },
           {
             "type": "link",
@@ -105,9 +105,9 @@
     ]
   },
   "docs": {
-    "ONDCAPI/comfirm": {
-      "id": "ONDCAPI/comfirm",
-      "title": "comfirm",
+    "ONDCAPI/Confirm": {
+      "id": "ONDCAPI/Confirm",
+      "title": "Confirm",
       "description": "About the API:",
       "sidebar": "tutorialSidebar"
     },
@@ -129,10 +129,10 @@
       "description": "What is ONDC?",
       "sidebar": "tutorialSidebar"
     },
-    "ONDCAPI/SearchAPI": {
-      "id": "ONDCAPI/SearchAPI",
-      "title": "SearchAPI",
-      "description": "About the API",
+    "ONDCAPI/Search-OnSearchAPI": {
+      "id": "ONDCAPI/Search-OnSearchAPI",
+      "title": "Search-OnSearchAPI",
+      "description": "Search API",
       "sidebar": "tutorialSidebar"
     },
     "ONDCAPI/SelectAPI": {

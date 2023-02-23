@@ -9,6 +9,7 @@ const FeatureList = [
     Svg: require("@site/static/img/home/cc_logo.svg").default,
     description: <>Care Commerce is a seller app and it is a gateway for the seller.</>,
   },
+
   {
     title: "ONDC API",
     Svg: require("@site/static/img/home/ondc_api.svg").default,

@@ -11,18 +11,14 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/comfirm.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
-  "frontMatter": {
-    "sidebar_label": "Confirm API",
-    "sidebar_position": 4
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Init API",
-    "permalink": "/docs/ONDCAPI/InitAPI"
+    "title": "SelectAPI",
+    "permalink": "/docs/ONDCAPI/SelectAPI"
   },
   "next": {
-    "title": "Flow of Logistic API",
-    "permalink": "/docs/ONDCAPI/logisticapi"
+    "title": "Seller API",
+    "permalink": "/docs/category/seller-api"
   }
 }

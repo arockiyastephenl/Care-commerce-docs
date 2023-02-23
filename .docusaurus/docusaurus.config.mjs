@@ -59,6 +59,11 @@ export default {
         },
         {
           "to": "/docs/category/seller-api",
+          "label": "Seller API",
+          "position": "left"
+        },
+        {
+          "to": "https://www.carecommerce.in/",
           "label": "Care Commerce",
           "position": "left"
         }

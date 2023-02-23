@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Confirm API",
-    "permalink": "/docs/ONDCAPI/comfirm"
+    "title": "Search and OnSearch API",
+    "permalink": "/docs/ONDCAPI/Search-OnSearchAPI"
   },
   "next": {
-    "title": "SearchAPI",
-    "permalink": "/docs/ONDCAPI/SearchAPI"
+    "title": "Confirm",
+    "permalink": "/docs/ONDCAPI/Confirm"
   }
 }

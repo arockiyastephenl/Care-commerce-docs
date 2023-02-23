@@ -1,0 +1,24 @@
+{
+  "unversionedId": "ONDCAPI/SearchandOnSearchAPI",
+  "id": "ONDCAPI/SearchandOnSearchAPI",
+  "title": "SearchandOnSearchAPI",
+  "description": "About the API",
+  "source": "@site/docs/ONDCAPI/SearchandOnSearchAPI.md",
+  "sourceDirName": "ONDCAPI",
+  "slug": "/ONDCAPI/SearchandOnSearchAPI",
+  "permalink": "/docs/ONDCAPI/SearchandOnSearchAPI",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/SearchandOnSearchAPI.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "InitAPI",
+    "permalink": "/docs/ONDCAPI/InitAPI"
+  },
+  "next": {
+    "title": "SelectAPI",
+    "permalink": "/docs/ONDCAPI/SelectAPI"
+  }
+}

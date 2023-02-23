@@ -20,31 +20,27 @@
           "contentPathLocalized": "C:\\Users\\abdab\\OneDrive\\Documents\\Kasadara-Colakin\\Care-commerce-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "ONDCAPI/comfirm",
-              "id": "ONDCAPI/comfirm",
-              "title": "comfirm",
+              "unversionedId": "ONDCAPI/Confirm",
+              "id": "ONDCAPI/Confirm",
+              "title": "Confirm",
               "description": "About the API:",
-              "source": "@site/docs/ONDCAPI/comfirm.md",
+              "source": "@site/docs/ONDCAPI/Confirm.md",
               "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/comfirm",
-              "permalink": "/docs/ONDCAPI/comfirm",
+              "slug": "/ONDCAPI/Confirm",
+              "permalink": "/docs/ONDCAPI/Confirm",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/comfirm.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/Confirm.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_label": "Confirm API",
-                "sidebar_position": 4
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Init API",
-                "permalink": "/docs/ONDCAPI/InitAPI"
-              },
-              "next": {
                 "title": "Flow of Logistic API",
                 "permalink": "/docs/ONDCAPI/logisticapi"
+              },
+              "next": {
+                "title": "InitAPI",
+                "permalink": "/docs/ONDCAPI/InitAPI"
               }
             },
             {
@@ -60,19 +56,15 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/InitAPI.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_label": "Init API",
-                "sidebar_position": 3
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Overview About ONDC API",
-                "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
+                "title": "Confirm",
+                "permalink": "/docs/ONDCAPI/Confirm"
               },
               "next": {
-                "title": "Confirm API",
-                "permalink": "/docs/ONDCAPI/comfirm"
+                "title": "SelectAPI",
+                "permalink": "/docs/ONDCAPI/SelectAPI"
               }
             },
             {
@@ -95,12 +87,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Confirm API",
-                "permalink": "/docs/ONDCAPI/comfirm"
+                "title": "Search and OnSearch API",
+                "permalink": "/docs/ONDCAPI/Search-OnSearchAPI"
               },
               "next": {
-                "title": "SearchAPI",
-                "permalink": "/docs/ONDCAPI/SearchAPI"
+                "title": "Confirm",
+                "permalink": "/docs/ONDCAPI/Confirm"
               }
             },
             {
@@ -127,32 +119,36 @@
                 "permalink": "/docs/category/ondc-api"
               },
               "next": {
-                "title": "Init API",
-                "permalink": "/docs/ONDCAPI/InitAPI"
+                "title": "Search and OnSearch API",
+                "permalink": "/docs/ONDCAPI/Search-OnSearchAPI"
               }
             },
             {
-              "unversionedId": "ONDCAPI/SearchAPI",
-              "id": "ONDCAPI/SearchAPI",
-              "title": "SearchAPI",
-              "description": "About the API",
-              "source": "@site/docs/ONDCAPI/SearchAPI.md",
+              "unversionedId": "ONDCAPI/Search-OnSearchAPI",
+              "id": "ONDCAPI/Search-OnSearchAPI",
+              "title": "Search-OnSearchAPI",
+              "description": "Search API",
+              "source": "@site/docs/ONDCAPI/Search-OnSearchAPI.md",
               "sourceDirName": "ONDCAPI",
-              "slug": "/ONDCAPI/SearchAPI",
-              "permalink": "/docs/ONDCAPI/SearchAPI",
+              "slug": "/ONDCAPI/Search-OnSearchAPI",
+              "permalink": "/docs/ONDCAPI/Search-OnSearchAPI",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/SearchAPI.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDCAPI/Search-OnSearchAPI.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Search and OnSearch API",
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Flow of Logistic API",
-                "permalink": "/docs/ONDCAPI/logisticapi"
+                "title": "Overview About ONDC API",
+                "permalink": "/docs/ONDCAPI/Overview-About-ONDC-API"
               },
               "next": {
-                "title": "SelectAPI",
-                "permalink": "/docs/ONDCAPI/SelectAPI"
+                "title": "Flow of Logistic API",
+                "permalink": "/docs/ONDCAPI/logisticapi"
               }
             },
             {
@@ -171,8 +167,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "SearchAPI",
-                "permalink": "/docs/ONDCAPI/SearchAPI"
+                "title": "InitAPI",
+                "permalink": "/docs/ONDCAPI/InitAPI"
               },
               "next": {
                 "title": "Seller API",
@@ -358,13 +354,8 @@
                   },
                   {
                     "type": "doc",
-                    "id": "ONDCAPI/InitAPI",
-                    "label": "Init API"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ONDCAPI/comfirm",
-                    "label": "Confirm API"
+                    "id": "ONDCAPI/Search-OnSearchAPI",
+                    "label": "Search and OnSearch API"
                   },
                   {
                     "type": "doc",
@@ -373,7 +364,11 @@
                   },
                   {
                     "type": "doc",
-                    "id": "ONDCAPI/SearchAPI"
+                    "id": "ONDCAPI/Confirm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ONDCAPI/InitAPI"
                   },
                   {
                     "type": "doc",

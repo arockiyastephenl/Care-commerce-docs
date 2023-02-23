@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SearchAPI",
-    "permalink": "/docs/ONDCAPI/SearchAPI"
+    "title": "InitAPI",
+    "permalink": "/docs/ONDCAPI/InitAPI"
   },
   "next": {
     "title": "Seller API",

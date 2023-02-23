@@ -55,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
       navbar: {
-        // title: 'Care Commerce ',
+        // title: "Care Commerce ",
         logo: {
           alt: "My Site Logo",
           src: "img/cclogo.svg",
@@ -68,7 +68,8 @@ const config = {
             label: "Overview",
           },
           { to: "/docs/category/ondc-api", label: "ONDC", position: "left" },
-          { to: "/docs/category/seller-api", label: "Care Commerce", position: "left" },
+          { to: "/docs/category/seller-api", label: "Seller API", position: "left" },
+          { to: `https://www.carecommerce.in/`, label: "Care Commerce", position: "left" },
         ],
       },
       footer: {

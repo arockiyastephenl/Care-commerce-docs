@@ -1,4 +1,11 @@
-## About the API
+---
+sidebar_label: "Search and OnSearch API"
+sidebar_position: 1
+---
+
+## Search API
+
+### About the API
 
 ![search](../img/Search/about.svg) - In the scenario below, Ramesh wants
 to buy 100ml of Milk using the Buyer App, He searches the product using
@@ -23,7 +30,7 @@ Buyer Application can use Search API by Multiple ways:
 4.  Search Product by Fulfillment (Based on the specified drop location
     or Pickup Location)
 
-## API Overview Diagram:
+### API Overview Diagram:
 
 ![search](../img/Search/api_overview.svg)
 
@@ -38,7 +45,7 @@ Description:          On the buyer node, the user searches for a Product using t
 
 <!-- ::: -->
 
-## Flow Diagram of Search and On_Search
+### Flow Diagram of Search and On_Search
 
 ![search](../img/Search/flowdiagram.svg)
 
@@ -88,7 +95,7 @@ Description:          On the buyer node, the user searches for a Product using t
 
 - 4.0 → CC Seller App API OnSearch
 
-## Parameters
+### Parameters
 
 |                     Parameter                      | Datatypes |                            Description                            |
 | :------------------------------------------------: | :-------: | :---------------------------------------------------------------: |
@@ -98,7 +105,7 @@ Description:          On the buyer node, the user searches for a Product using t
 |  payment.@ondc/org/buyer*app*<br/>finder_fee_type  |  string   |         Buyer app commission type. Enum: Amount, Percent          |
 | payment.@ondc/org/buyer*app*<br/>finder_fee_amount |  string   |                   Buyer app commission amount.                    |
 
-## Request Sample Data:
+### Request Sample Data:
 
 ```json
 {
@@ -145,7 +152,7 @@ response it is also called as Callback API.
 
 So the Search request response will be unique message id and +ve Ack
 
-## Response Sample Data:
+### Response Sample Data:
 
 ```json
 {
@@ -172,7 +179,7 @@ So the Search request response will be unique message id and +ve Ack
 
 ## On_Search API:
 
-## About the API :
+### About the API :
 
 Whenever the Buyer App calls the Search API with specific parameters,
 the OnSearch API can be called using the Unique Message ID to get the
@@ -195,14 +202,14 @@ Description: 		  The seller node receives a search query and based on the reques
 | message.catalog.bpp/descriptor   | Object    | Details about the seller who sell the product. Example name,store details,etc.,  |
 | message.catalog.bpp/providers    | Array     | This field contains the list of products that match the search request. Eg: milk |
 
-## Request Sample Data
+### Request Sample Data
 
 ```json
 messageId=37fd9c02-0f8b-4a3e-8397-b9ea64258c57
 
 ```
 
-## Response Sample Data
+### Response Sample Data
 
 ```json
 {

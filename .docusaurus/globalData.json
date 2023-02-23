@@ -11,8 +11,8 @@
           "mainDocId": "Overiview/Overview-0f-E-Commerce",
           "docs": [
             {
-              "id": "ONDCAPI/comfirm",
-              "path": "/docs/ONDCAPI/comfirm",
+              "id": "ONDCAPI/Confirm",
+              "path": "/docs/ONDCAPI/Confirm",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -31,8 +31,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/SearchAPI",
-              "path": "/docs/ONDCAPI/SearchAPI",
+              "id": "ONDCAPI/Search-OnSearchAPI",
+              "path": "/docs/ONDCAPI/Search-OnSearchAPI",
               "sidebar": "tutorialSidebar"
             },
             {
