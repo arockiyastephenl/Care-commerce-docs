@@ -16,17 +16,17 @@ the ONDC
 - In Simple words, Search API is used to Discover the product for the
   Buyer from theONDC
 
-- The Search API allows user to search the full list of products based
+- The Search API allows users to search the full list of products based
   on the search query available in the Care Commerce.
 
-- Use the Search API to get list of products available based on the
+- Use the Search API to get a list of products available based on the
   Search parameter, Location, Mode of Payments etc..
 
 Buyer Application can use Search API by Multiple ways:
 
 1.  Search Product by City (Based on the City)
 2.  Search Product by Product Name ( Based on the Product Name)
-3.  Search Product by Catagory (Based on the Product Catagory)
+3.  Search Product by Category (Based on the Product Category)
 4.  Search Product by Fulfillment (Based on the specified drop location
     or Pickup Location)
 
@@ -38,7 +38,7 @@ Buyer Application can use Search API by Multiple ways:
 
 ```{.sourceCode .ruby}
 Method:               POST
-Required Parameters:  Need Products name and cutomer locations
+Required Parameters:  Need Products name and customer locations
 Url:                  /protocol/v1/search
 Description:          On the buyer node, the user searches for a Product using the name (change based on requirements). The user expects a list of Products with matching name
 ```
@@ -95,15 +95,16 @@ Description:          On the buyer node, the user searches for a Product using t
 
 - 4.0 → CC Seller App API OnSearch
 
+## Search API :
 ### Parameters
 
-|                     Parameter                      | Datatypes |                            Description                            |
-| :------------------------------------------------: | :-------: | :---------------------------------------------------------------: |
-|                item.descriptor.name                |  string   |                Name of the Product to be searched.                |
-|                  fulfillment.type                  |  string   |       Defines the Delivery mode of the Particular Product.        |
-|            fulfillment.end.location.gps            |  string   | Search the Product available in around the given GPS Coordinates. |
-|  payment.@ondc/org/buyer*app*<br/>finder_fee_type  |  string   |         Buyer app commission type. Enum: Amount, Percent          |
-| payment.@ondc/org/buyer*app*<br/>finder_fee_amount |  string   |                   Buyer app commission amount.                    |
+|                     Parameter                      | Datatypes | Required |                            Description                            |
+| :------------------------------------------------: | :-------: |:-------: | :---------------------------------------------------------------: |
+|                item.descriptor.name                |  string   |YES|                Name of the Product to be searched.                |
+|                  fulfillment.type                  |  string   |-|       Defines the Delivery mode of the Particular Product.        |
+|            fulfillment.end.location.gps            |  string   |YES| Search the Product available in around the given GPS Coordinates. |
+|  payment.@ondc/org/buyer*app*<br/>finder_fee_type  |  string   |-|         Buyer app commission type. Enum: Amount, Percent          |
+| payment.@ondc/org/buyer*app*<br/>finder_fee_amount |  string   |-|                   Buyer app commission amount.                    |
 
 ### Request Sample Data:
 
@@ -146,8 +147,8 @@ Description:          On the buyer node, the user searches for a Product using t
 }
 ```
 
-ONDC uses **async APIs**, So Seller App is taking some time to process
-the request. Serach request response will be passed on the on_search API
+ONDC uses **async APIs**, So the Seller App is taking some time to process
+the request. Search request response will be passed on the on_search API
 response it is also called as Callback API.
 
 So the Search request response will be unique message id and +ve Ack
@@ -179,11 +180,9 @@ So the Search request response will be unique message id and +ve Ack
 
 ## On_Search API:
 
-### About the API :
-
 Whenever the Buyer App calls the Search API with specific parameters,
 the OnSearch API can be called using the Unique Message ID to get the
-reponse for the Search API request.
+response for the Search API request.
 
 An Unique Message ID will be generated for the specific request to the
 Buyer, Using the Unique Message ID, The product details can be fetched
@@ -195,7 +194,7 @@ Required Parameters:   Need provider_details,location_details,bpp_details,catego
 Url: 			      /protocol/v1/on_search
 Description: 		  The seller node receives a search query and based on the request, it identifies matching items from the various seller catalogs on the platform. It consolidates all matching results and returns a list of items
 ```
-
+### Parameters
 | Parameter                        | Data type | Description                                                                      |
 | -------------------------------- | --------- | -------------------------------------------------------------------------------- |
 | message.catalog.bpp/fulfillments | Object    | This field will give the details about the delivery type and delivery method     |
