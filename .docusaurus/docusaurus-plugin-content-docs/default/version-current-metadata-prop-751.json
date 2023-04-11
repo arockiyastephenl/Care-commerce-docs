@@ -11,164 +11,122 @@
     "tutorialSidebar": [
       {
         "type": "category",
-        "label": "Overview",
+        "label": "ONDC",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "E-Commerce",
-            "href": "/docs/Overiview/Overview-0f-E-Commerce",
-            "docId": "Overiview/Overview-0f-E-Commerce"
+            "label": "Introduction",
+            "href": "/docs/ONDC/Introduction",
+            "docId": "ONDC/Introduction"
           },
           {
             "type": "link",
-            "label": "ONDC",
-            "href": "/docs/Overiview/Overview-0f-ONDC",
-            "docId": "Overiview/Overview-0f-ONDC"
+            "label": "Use cases",
+            "href": "/docs/ONDC/Usecase",
+            "docId": "ONDC/Usecase"
           },
           {
             "type": "link",
-            "label": "Care Commerce",
-            "href": "/docs/Overiview/Overview-0f-Care-Commerce",
-            "docId": "Overiview/Overview-0f-Care-Commerce"
-          }
-        ],
-        "href": "/docs/category/overview"
-      },
-      {
-        "type": "category",
-        "label": "ONDC API",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview About ONDC API",
-            "href": "/docs/ONDCAPI/Overview-About-ONDC-API",
-            "docId": "ONDCAPI/Overview-About-ONDC-API"
+            "label": "Flow diagram",
+            "href": "/docs/ONDC/Flow diagram",
+            "docId": "ONDC/Flow diagram"
           },
           {
             "type": "link",
-            "label": "Search and OnSearch API",
-            "href": "/docs/ONDCAPI/Search-OnSearchAPI",
-            "docId": "ONDCAPI/Search-OnSearchAPI"
+            "label": "Get Started",
+            "href": "/docs/ONDC/Get Started",
+            "docId": "ONDC/Get Started"
           },
           {
             "type": "link",
-            "label": "Flow of Logistic API",
-            "href": "/docs/ONDCAPI/logisticapi",
-            "docId": "ONDCAPI/logisticapi"
+            "label": "Search",
+            "href": "/docs/ONDC/Search",
+            "docId": "ONDC/Search"
+          },
+          {
+            "type": "link",
+            "label": "Select",
+            "href": "/docs/ONDC/Select",
+            "docId": "ONDC/Select"
+          },
+          {
+            "type": "link",
+            "label": "Init",
+            "href": "/docs/ONDC/Init",
+            "docId": "ONDC/Init"
           },
           {
             "type": "link",
             "label": "Confirm",
-            "href": "/docs/ONDCAPI/Confirm",
-            "docId": "ONDCAPI/Confirm"
+            "href": "/docs/ONDC/Confirm",
+            "docId": "ONDC/Confirm"
           },
           {
             "type": "link",
-            "label": "InitAPI",
-            "href": "/docs/ONDCAPI/InitAPI",
-            "docId": "ONDCAPI/InitAPI"
-          },
-          {
-            "type": "link",
-            "label": "SelectAPI",
-            "href": "/docs/ONDCAPI/SelectAPI",
-            "docId": "ONDCAPI/SelectAPI"
+            "label": "Flow of Logistic API",
+            "href": "/docs/ONDC/logisticapi",
+            "docId": "ONDC/logisticapi"
           }
         ],
-        "href": "/docs/category/ondc-api"
-      },
-      {
-        "type": "category",
-        "label": "Seller API",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Store API",
-            "href": "/docs/StoreAPI/intro",
-            "docId": "StoreAPI/intro"
-          },
-          {
-            "type": "link",
-            "label": "Location API",
-            "href": "/docs/StoreAPI/Location_API",
-            "docId": "StoreAPI/Location_API"
-          }
-        ],
-        "href": "/docs/category/seller-api"
+        "href": "/docs/category/ondc"
       }
     ]
   },
   "docs": {
-    "ONDCAPI/Confirm": {
-      "id": "ONDCAPI/Confirm",
+    "ONDC/Confirm": {
+      "id": "ONDC/Confirm",
       "title": "Confirm",
       "description": "About the API:",
       "sidebar": "tutorialSidebar"
     },
-    "ONDCAPI/InitAPI": {
-      "id": "ONDCAPI/InitAPI",
-      "title": "InitAPI",
+    "ONDC/Flow diagram": {
+      "id": "ONDC/Flow diagram",
+      "title": "Flow diagram",
+      "description": "Search:",
+      "sidebar": "tutorialSidebar"
+    },
+    "ONDC/Get Started": {
+      "id": "ONDC/Get Started",
+      "title": "Get Started",
+      "description": "To successfully onboard on the Open Network for Digital Commerce (ONDC), there are several key steps that need to be taken. These steps involve registering as a seller, integrating your existing systems with ONDC's APIs, listing your products on the platform, setting up your payment gateway, and managing your orders.",
+      "sidebar": "tutorialSidebar"
+    },
+    "ONDC/Init": {
+      "id": "ONDC/Init",
+      "title": "Init",
       "description": "About API :",
       "sidebar": "tutorialSidebar"
     },
-    "ONDCAPI/logisticapi": {
-      "id": "ONDCAPI/logisticapi",
+    "ONDC/Introduction": {
+      "id": "ONDC/Introduction",
+      "title": "Introduction",
+      "description": "Open Network for Digital Commerce (ONDC) is a market-led initiative aimed at enabling interoperability in Digital Commerce.",
+      "sidebar": "tutorialSidebar"
+    },
+    "ONDC/logisticapi": {
+      "id": "ONDC/logisticapi",
       "title": "logisticapi",
       "description": "Logistic API flow On ONDC",
       "sidebar": "tutorialSidebar"
     },
-    "ONDCAPI/Overview-About-ONDC-API": {
-      "id": "ONDCAPI/Overview-About-ONDC-API",
-      "title": "Overview-About-ONDC-API",
-      "description": "What is ONDC?",
+    "ONDC/Search": {
+      "id": "ONDC/Search",
+      "title": "Search",
+      "description": "About the API",
       "sidebar": "tutorialSidebar"
     },
-    "ONDCAPI/Search-OnSearchAPI": {
-      "id": "ONDCAPI/Search-OnSearchAPI",
-      "title": "Search-OnSearchAPI",
-      "description": "Search API",
-      "sidebar": "tutorialSidebar"
-    },
-    "ONDCAPI/SelectAPI": {
-      "id": "ONDCAPI/SelectAPI",
-      "title": "SelectAPI",
+    "ONDC/Select": {
+      "id": "ONDC/Select",
+      "title": "Select",
       "description": "About the API :",
       "sidebar": "tutorialSidebar"
     },
-    "Overiview/Overview-0f-Care-Commerce": {
-      "id": "Overiview/Overview-0f-Care-Commerce",
-      "title": "Care Commerce",
-      "description": "Care Commerce is a seller app and it has a seller aggregator.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Overiview/Overview-0f-E-Commerce": {
-      "id": "Overiview/Overview-0f-E-Commerce",
-      "title": "e-Commerce",
-      "description": "e-Commerce  Buy and Sell goods and services over the Internet. It includes payments and logistics also.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Overiview/Overview-0f-ONDC": {
-      "id": "Overiview/Overview-0f-ONDC",
-      "title": "ONDC",
-      "description": "ONDC Open Network for Digital Commerce - Buying and selling in transparent way over the online.",
-      "sidebar": "tutorialSidebar"
-    },
-    "StoreAPI/intro": {
-      "id": "StoreAPI/intro",
-      "title": "Care Commerce Store API",
-      "description": "This document aims to enable developers to work with the various API frameworks such as Store Registration and Delivery and Payment Modes in the Care Commerce Application. Use this API to initiate seller registration on Care Commerce.",
-      "sidebar": "tutorialSidebar"
-    },
-    "StoreAPI/Location_API": {
-      "id": "StoreAPI/Location_API",
-      "title": "Care Commerce Location API",
-      "description": "This document aims to enable developers to work with the Location API frameworks such as Add Location, Update Location, Get location by Id, GetAll location by Id and Delete location in the Care Commerce Application. Use this API to Location details on Care Commerce.",
+    "ONDC/Usecase": {
+      "id": "ONDC/Usecase",
+      "title": "Usecase",
+      "description": "Use Case for Search:",
       "sidebar": "tutorialSidebar"
     }
   }

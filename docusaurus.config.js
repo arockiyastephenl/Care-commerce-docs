@@ -60,17 +60,17 @@ const config = {
           alt: "My Site Logo",
           src: "img/cclogo.svg",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "Overiview/Overview-0f-E-Commerce",
-            position: "left",
-            label: "Overview",
-          },
-          { to: "/docs/category/ondc-api", label: "ONDC", position: "left" },
-          { to: "/docs/category/seller-api", label: "Seller API", position: "left" },
-          { to: `https://www.carecommerce.in/`, label: "Care Commerce", position: "left" },
-        ],
+        // items: [
+        //   {
+        //     type: "doc",
+        //     docId: "Overiview/Overview-0f-E-Commerce",
+        //     position: "left",
+        //     label: "Overview",
+        //   },
+        //   // { to: "/docs/category/ondc-api", label: "ONDC", position: "left" },
+        //   // { to: "/docs/category/seller-api", label: "Seller API", position: "left" },
+        //   { to: `https://www.carecommerce.in/`, label: "Care Commerce", position: "left" },
+        // ],
       },
       footer: {
         style: "dark",
@@ -82,18 +82,18 @@ const config = {
                 label: "Docs",
                 to: "/",
               },
-              {
-                label: "Overview",
-                to: "/docs/category/overview",
-              },
+              // {
+              //   label: "Overview",
+              //   to: "/docs/category/overview",
+              // },
               {
                 label: "ONDC",
-                to: "/docs/category/ondc-api",
+                to: "/docs/ONDC/Introduction",
               },
-              {
-                label: "Care Commerce",
-                to: "/docs/category/seller-api",
-              },
+              // {
+              //   label: "Care Commerce",
+              //   to: "/docs/category/seller-api",
+              // },
             ],
           },
         ],

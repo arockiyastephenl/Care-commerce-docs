@@ -27,7 +27,7 @@ function Feature({ Svg, title, description }) {
   if (title === "Care Commerce") {
     link = "/docs/category/overview";
   } else if (title === "ONDC API") {
-    link = "/docs/category/ondc-api";
+    link = "/docs/ONDC/Introduction";
   } else {
     link = "/docs/category/seller-api";
   }

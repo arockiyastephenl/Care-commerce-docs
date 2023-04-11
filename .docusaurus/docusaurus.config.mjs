@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\abdab\\OneDrive\\Documents\\Kasadara-Colakin\\Care-commerce-docs\\sidebars.js",
+          "sidebarPath": "C:\\Care Commerce\\Care-commerce-docs\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\abdab\\OneDrive\\Documents\\Kasadara-Colakin\\Care-commerce-docs\\src\\css\\custom.css"
+          "customCss": "C:\\Care Commerce\\Care-commerce-docs\\src\\css\\custom.css"
         }
       }
     ]
@@ -45,30 +45,8 @@ export default {
         "alt": "My Site Logo",
         "src": "img/cclogo.svg"
       },
-      "items": [
-        {
-          "type": "doc",
-          "docId": "Overiview/Overview-0f-E-Commerce",
-          "position": "left",
-          "label": "Overview"
-        },
-        {
-          "to": "/docs/category/ondc-api",
-          "label": "ONDC",
-          "position": "left"
-        },
-        {
-          "to": "/docs/category/seller-api",
-          "label": "Seller API",
-          "position": "left"
-        },
-        {
-          "to": "https://www.carecommerce.in/",
-          "label": "Care Commerce",
-          "position": "left"
-        }
-      ],
-      "hideOnScroll": false
+      "hideOnScroll": false,
+      "items": []
     },
     "footer": {
       "style": "dark",
@@ -80,16 +58,8 @@ export default {
               "to": "/"
             },
             {
-              "label": "Overview",
-              "to": "/docs/category/overview"
-            },
-            {
               "label": "ONDC",
-              "to": "/docs/category/ondc-api"
-            },
-            {
-              "label": "Care Commerce",
-              "to": "/docs/category/seller-api"
+              "to": "/docs/ONDC/Introduction"
             }
           ],
           "title": null

@@ -1,3 +1,9 @@
+---
+sidebar_label: "Confirm"
+sidebar_position: 8
+---
+
+
 ## About the API:
 
 Confirm API helps to confirm the order and to proceed the payment using

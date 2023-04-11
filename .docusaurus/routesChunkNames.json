@@ -1,121 +1,105 @@
 {
-  "/__docusaurus/debug-306": {
+  "/__docusaurus/debug-923": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/__docusaurus/debug/config-4d5": {
+  "/__docusaurus/debug/config-464": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/__docusaurus/debug/content-2b0": {
+  "/__docusaurus/debug/content-da4": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-752": {
+  "/__docusaurus/debug/globalData-dc1": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/__docusaurus/debug/metadata-e2a": {
+  "/__docusaurus/debug/metadata-c2a": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/__docusaurus/debug/registry-33f": {
+  "/__docusaurus/debug/registry-f9b": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/__docusaurus/debug/routes-9d5": {
+  "/__docusaurus/debug/routes-eaf": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debuge-0-d-d5c"
+      "plugin": "plugin---docusaurus-debug-4-ed-443"
     }
   },
-  "/markdown-page-e4a": {
+  "/markdown-page-3e0": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-pageff-2-d37"
+      "plugin": "plugin---markdown-page-3-f-0-73b"
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-d96": {
+  "/docs-213": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---docs-7-aa-a28"
+      "plugin": "plugin---docs-88-f-9e4"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/category/ondc-api-374": {
+  "/docs/category/ondc-b49": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-ondc-apib-2-c-e10"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-ondc-4-bd-8cc"
   },
-  "/docs/category/overview-a36": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-overview-88-b-0c7"
-  },
-  "/docs/category/seller-api-afb": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-seller-api-20-d-9fb"
-  },
-  "/docs/ONDCAPI/Confirm-e64": {
+  "/docs/ONDC/Confirm-2f4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-confirm-69-d-3f3"
+    "content": "content---docs-ondc-confirm-707-862"
   },
-  "/docs/ONDCAPI/InitAPI-649": {
+  "/docs/ONDC/Flow diagram-037": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-init-api-258-d61"
+    "content": "content---docs-ondc-flow-diagram-096-39a"
   },
-  "/docs/ONDCAPI/logisticapi-c34": {
+  "/docs/ONDC/Get Started-82d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-logisticapi-49-b-d5d"
+    "content": "content---docs-ondc-get-started-8-e-1-4ed"
   },
-  "/docs/ONDCAPI/Overview-About-ONDC-API-1f6": {
+  "/docs/ONDC/Init-a32": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-overview-about-ondc-api-855-236"
+    "content": "content---docs-ondc-inita-2-c-d29"
   },
-  "/docs/ONDCAPI/Search-OnSearchAPI-fab": {
+  "/docs/ONDC/Introduction-bfe": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-search-on-search-ap-ied-1-208"
+    "content": "content---docs-ondc-introductioncbe-0f3"
   },
-  "/docs/ONDCAPI/SelectAPI-907": {
+  "/docs/ONDC/logisticapi-217": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondcapi-select-api-8-b-7-4f8"
+    "content": "content---docs-ondc-logisticapicc-2-3bf"
   },
-  "/docs/Overiview/Overview-0f-Care-Commerce-914": {
+  "/docs/ONDC/Search-84b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-overiview-overview-0-f-care-commerce-8-ef-ebc"
+    "content": "content---docs-ondc-searchdef-c7d"
   },
-  "/docs/Overiview/Overview-0f-E-Commerce-0d8": {
+  "/docs/ONDC/Select-68c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-overiview-overview-0-f-e-commerceb-8-e-782"
+    "content": "content---docs-ondc-select-584-eb6"
   },
-  "/docs/Overiview/Overview-0f-ONDC-284": {
+  "/docs/ONDC/Usecase-d14": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-overiview-overview-0-f-ondc-635-8a5"
+    "content": "content---docs-ondc-usecaseecb-5f2"
   },
-  "/docs/StoreAPI/intro-d10": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-store-api-intro-4-dd-2fa"
-  },
-  "/docs/StoreAPI/Location_API-bae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-store-api-location-api-3-bc-b5c"
-  },
-  "/-718": {
+  "/-a7b": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-pageff-2-d37"
+      "plugin": "plugin---markdown-page-3-f-0-73b"
     },
     "config": "config---5-e-9-4f3"
   }

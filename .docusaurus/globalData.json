@@ -8,76 +8,56 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "Overiview/Overview-0f-E-Commerce",
+          "mainDocId": "ONDC/Introduction",
           "docs": [
             {
-              "id": "ONDCAPI/Confirm",
-              "path": "/docs/ONDCAPI/Confirm",
+              "id": "ONDC/Confirm",
+              "path": "/docs/ONDC/Confirm",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/InitAPI",
-              "path": "/docs/ONDCAPI/InitAPI",
+              "id": "ONDC/Flow diagram",
+              "path": "/docs/ONDC/Flow diagram",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/logisticapi",
-              "path": "/docs/ONDCAPI/logisticapi",
+              "id": "ONDC/Get Started",
+              "path": "/docs/ONDC/Get Started",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/Overview-About-ONDC-API",
-              "path": "/docs/ONDCAPI/Overview-About-ONDC-API",
+              "id": "ONDC/Init",
+              "path": "/docs/ONDC/Init",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/Search-OnSearchAPI",
-              "path": "/docs/ONDCAPI/Search-OnSearchAPI",
+              "id": "ONDC/Introduction",
+              "path": "/docs/ONDC/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "ONDCAPI/SelectAPI",
-              "path": "/docs/ONDCAPI/SelectAPI",
+              "id": "ONDC/logisticapi",
+              "path": "/docs/ONDC/logisticapi",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Overiview/Overview-0f-Care-Commerce",
-              "path": "/docs/Overiview/Overview-0f-Care-Commerce",
+              "id": "ONDC/Search",
+              "path": "/docs/ONDC/Search",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Overiview/Overview-0f-E-Commerce",
-              "path": "/docs/Overiview/Overview-0f-E-Commerce",
+              "id": "ONDC/Select",
+              "path": "/docs/ONDC/Select",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Overiview/Overview-0f-ONDC",
-              "path": "/docs/Overiview/Overview-0f-ONDC",
+              "id": "ONDC/Usecase",
+              "path": "/docs/ONDC/Usecase",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "StoreAPI/intro",
-              "path": "/docs/StoreAPI/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "StoreAPI/Location_API",
-              "path": "/docs/StoreAPI/Location_API",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/overview",
-              "path": "/docs/category/overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/ondc-api",
-              "path": "/docs/category/ondc-api",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/seller-api",
-              "path": "/docs/category/seller-api",
+              "id": "/category/ondc",
+              "path": "/docs/category/ondc",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -85,8 +65,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/category/overview",
-                "label": "Overview"
+                "path": "/docs/category/ondc",
+                "label": "ONDC"
               }
             }
           }

@@ -1,3 +1,8 @@
+---
+sidebar_label: "Select"
+sidebar_position: 6
+---
+
 ## About the API :
 
 The Select API allows the buyer to select the products listed by the

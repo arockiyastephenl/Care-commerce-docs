@@ -1,0 +1,28 @@
+{
+  "unversionedId": "ONDC/Usecase",
+  "id": "ONDC/Usecase",
+  "title": "Usecase",
+  "description": "Use Case for Search:",
+  "source": "@site/docs/ONDC/Usecase.md",
+  "sourceDirName": "ONDC",
+  "slug": "/ONDC/Usecase",
+  "permalink": "/docs/ONDC/Usecase",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC/Usecase.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Use cases",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/ONDC/Introduction"
+  },
+  "next": {
+    "title": "Flow diagram",
+    "permalink": "/docs/ONDC/Flow diagram"
+  }
+}

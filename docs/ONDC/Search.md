@@ -1,19 +1,11 @@
 ---
-sidebar_label: "Search and OnSearch API"
-sidebar_position: 1
+sidebar_label: "Search"
+sidebar_position: 5
 ---
-
-## Search API
 
 ### About the API
 
-![search](../img/Search/about.svg) - In the scenario below, Ramesh wants
-to buy 100ml of Milk using the Buyer App, He searches the product using
-the product name, Using Search API to discover the product based on
-Ramesh's specific location from the large network of seller available in
-the ONDC
-
-- In Simple words, Search API is used to Discover the product for the
+ Search API is used to Discover the product for the
   Buyer from theONDC
 
 - The Search API allows users to search the full list of products based

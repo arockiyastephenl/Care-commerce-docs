@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ONDC/SelectAPI",
+  "id": "ONDC/SelectAPI",
+  "title": "SelectAPI",
+  "description": "About the API :",
+  "source": "@site/docs/ONDC/SelectAPI.md",
+  "sourceDirName": "ONDC",
+  "slug": "/ONDC/SelectAPI",
+  "permalink": "/docs/ONDC/SelectAPI",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC/SelectAPI.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "InitAPI",
+    "permalink": "/docs/ONDC/InitAPI"
+  }
+}

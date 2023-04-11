@@ -1,0 +1,11 @@
+{
+  "title": "ONDC",
+  "slug": "/category/ondc",
+  "permalink": "/docs/category/ondc",
+  "navigation": {
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/ONDC/Introduction"
+    }
+  }
+}

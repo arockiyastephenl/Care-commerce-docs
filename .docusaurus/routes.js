@@ -4,129 +4,105 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '306'),
+    component: ComponentCreator('/__docusaurus/debug', '923'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '4d5'),
+    component: ComponentCreator('/__docusaurus/debug/config', '464'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '2b0'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'da4'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '752'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'dc1'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'e2a'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'c2a'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '33f'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'f9b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '9d5'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'eaf'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'e4a'),
+    component: ComponentCreator('/markdown-page', '3e0'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd96'),
+    component: ComponentCreator('/docs', '213'),
     routes: [
       {
-        path: '/docs/category/ondc-api',
-        component: ComponentCreator('/docs/category/ondc-api', '374'),
+        path: '/docs/category/ondc',
+        component: ComponentCreator('/docs/category/ondc', 'b49'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/overview',
-        component: ComponentCreator('/docs/category/overview', 'a36'),
+        path: '/docs/ONDC/Confirm',
+        component: ComponentCreator('/docs/ONDC/Confirm', '2f4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/seller-api',
-        component: ComponentCreator('/docs/category/seller-api', 'afb'),
+        path: '/docs/ONDC/Flow diagram',
+        component: ComponentCreator('/docs/ONDC/Flow diagram', '037'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/Confirm',
-        component: ComponentCreator('/docs/ONDCAPI/Confirm', 'e64'),
+        path: '/docs/ONDC/Get Started',
+        component: ComponentCreator('/docs/ONDC/Get Started', '82d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/InitAPI',
-        component: ComponentCreator('/docs/ONDCAPI/InitAPI', '649'),
+        path: '/docs/ONDC/Init',
+        component: ComponentCreator('/docs/ONDC/Init', 'a32'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/logisticapi',
-        component: ComponentCreator('/docs/ONDCAPI/logisticapi', 'c34'),
+        path: '/docs/ONDC/Introduction',
+        component: ComponentCreator('/docs/ONDC/Introduction', 'bfe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/Overview-About-ONDC-API',
-        component: ComponentCreator('/docs/ONDCAPI/Overview-About-ONDC-API', '1f6'),
+        path: '/docs/ONDC/logisticapi',
+        component: ComponentCreator('/docs/ONDC/logisticapi', '217'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/Search-OnSearchAPI',
-        component: ComponentCreator('/docs/ONDCAPI/Search-OnSearchAPI', 'fab'),
+        path: '/docs/ONDC/Search',
+        component: ComponentCreator('/docs/ONDC/Search', '84b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/ONDCAPI/SelectAPI',
-        component: ComponentCreator('/docs/ONDCAPI/SelectAPI', '907'),
+        path: '/docs/ONDC/Select',
+        component: ComponentCreator('/docs/ONDC/Select', '68c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Overiview/Overview-0f-Care-Commerce',
-        component: ComponentCreator('/docs/Overiview/Overview-0f-Care-Commerce', '914'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Overiview/Overview-0f-E-Commerce',
-        component: ComponentCreator('/docs/Overiview/Overview-0f-E-Commerce', '0d8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Overiview/Overview-0f-ONDC',
-        component: ComponentCreator('/docs/Overiview/Overview-0f-ONDC', '284'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/StoreAPI/intro',
-        component: ComponentCreator('/docs/StoreAPI/intro', 'd10'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/StoreAPI/Location_API',
-        component: ComponentCreator('/docs/StoreAPI/Location_API', 'bae'),
+        path: '/docs/ONDC/Usecase',
+        component: ComponentCreator('/docs/ONDC/Usecase', 'd14'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
@@ -134,7 +110,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '718'),
+    component: ComponentCreator('/', 'a7b'),
     exact: true
   },
   {

@@ -1,3 +1,8 @@
+---
+sidebar_label: "Init"
+sidebar_position: 7
+---
+
 ## About API :
 
 OnSelect API helps to get the Quotation of the products in the Cart,

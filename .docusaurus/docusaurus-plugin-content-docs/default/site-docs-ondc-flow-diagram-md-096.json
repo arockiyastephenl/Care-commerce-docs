@@ -1,0 +1,28 @@
+{
+  "unversionedId": "ONDC/Flow diagram",
+  "id": "ONDC/Flow diagram",
+  "title": "Flow diagram",
+  "description": "Search:",
+  "source": "@site/docs/ONDC/Flow diagram.md",
+  "sourceDirName": "ONDC",
+  "slug": "/ONDC/Flow diagram",
+  "permalink": "/docs/ONDC/Flow diagram",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ONDC/Flow diagram.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Flow diagram",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use cases",
+    "permalink": "/docs/ONDC/Usecase"
+  },
+  "next": {
+    "title": "Get Started",
+    "permalink": "/docs/ONDC/Get Started"
+  }
+}

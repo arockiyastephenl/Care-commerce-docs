@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Flow of Logistic API'
-sidebar_position: 5
+sidebar_position: 9
 ---
 
 ## Logistic API flow On ONDC
