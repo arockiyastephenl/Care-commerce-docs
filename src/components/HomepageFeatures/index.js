@@ -25,11 +25,11 @@ const FeatureList = [
 function Feature({ Svg, title, description }) {
   let link;
   if (title === "Care Commerce") {
-    link = "/docs/category/overview";
+    link = "/docs/ONDC/Introduction";
   } else if (title === "ONDC API") {
     link = "/docs/ONDC/Introduction";
   } else {
-    link = "/docs/category/seller-api";
+    link = "/docs/ONDC/Introduction";
   }
   return (
     <div className={clsx("col col--4")}>

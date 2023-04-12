@@ -1,106 +1,63 @@
 {
-  "/__docusaurus/debug-923": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
-  "/__docusaurus/debug/config-464": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
-  "/__docusaurus/debug/content-da4": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-dc1": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
-  "/__docusaurus/debug/metadata-c2a": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
-  "/__docusaurus/debug/registry-f9b": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
-  "/__docusaurus/debug/routes-eaf": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-4-ed-443"
-    }
-  },
   "/markdown-page-3e0": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-page-3-f-0-73b"
+      "plugin": "3f06c2cd"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-213": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-88-f-9e4"
+      "plugin": "88f8e41f"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/docs/category/ondc-b49": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-ondc-4-bd-8cc"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "4bde262e"
   },
   "/docs/ONDC/Confirm-2f4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-confirm-707-862"
+    "__comp": "17896441",
+    "content": "707f09f3"
   },
   "/docs/ONDC/Flow diagram-037": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-flow-diagram-096-39a"
+    "__comp": "17896441",
+    "content": "096e5107"
   },
   "/docs/ONDC/Get Started-82d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-get-started-8-e-1-4ed"
+    "__comp": "17896441",
+    "content": "8e15dcbd"
   },
   "/docs/ONDC/Init-a32": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-inita-2-c-d29"
+    "__comp": "17896441",
+    "content": "a2c7fe7d"
   },
   "/docs/ONDC/Introduction-bfe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-introductioncbe-0f3"
+    "__comp": "17896441",
+    "content": "cbe0720d"
   },
   "/docs/ONDC/logisticapi-217": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-logisticapicc-2-3bf"
+    "__comp": "17896441",
+    "content": "cc2ddc45"
   },
   "/docs/ONDC/Search-84b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-searchdef-c7d"
+    "__comp": "17896441",
+    "content": "def30b9c"
   },
   "/docs/ONDC/Select-68c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-select-584-eb6"
+    "__comp": "17896441",
+    "content": "584996cf"
   },
   "/docs/ONDC/Usecase-d14": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-ondc-usecaseecb-5f2"
+    "__comp": "17896441",
+    "content": "ecb6c688"
   },
   "/-a7b": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-page-3-f-0-73b"
+      "plugin": "3f06c2cd"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
