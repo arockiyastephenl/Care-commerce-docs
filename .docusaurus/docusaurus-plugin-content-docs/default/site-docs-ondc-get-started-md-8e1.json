@@ -2,7 +2,7 @@
   "unversionedId": "ONDC/Get Started",
   "id": "ONDC/Get Started",
   "title": "Get Started",
-  "description": "To successfully onboard on the Open Network for Digital Commerce (ONDC), there are several key steps that need to be taken. These steps involve registering as a seller, integrating your existing systems with ONDC's APIs, listing your products on the platform, setting up your payment gateway, and managing your orders.",
+  "description": "Open Network for Digital Commerce (ONDC), you must follow a few key steps. Firstly, register as a seller by providing basic business information such as your company name, address, and tax ID. Next, integrate your existing systems with ONDC's APIs to allow for seamless communication between your systems and the platform. Once integration is complete, start listing your products on ONDC by providing detailed descriptions, images, and pricing information. Set up your payment gateway by integrating it with ONDC's APIs and configuring payment settings. Finally, efficiently manage orders by processing and updating their status, and communicating with buyers as needed. Successfully onboarding on ONDC requires a combination of technical integration, product listing, and order management skills.",
   "source": "@site/docs/ONDC/Get Started.md",
   "sourceDirName": "ONDC",
   "slug": "/ONDC/Get Started",

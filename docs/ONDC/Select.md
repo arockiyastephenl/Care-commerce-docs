@@ -16,9 +16,6 @@ items or remove them from the cart
 End user will choose the onsearch response list of products. Select api
 will help to add the products to the cart.
 
-## API Overview Diagram:
-
-![select](../img/Select/api_overview.svg)
 
 ```bash
 Method:               POST
@@ -27,15 +24,17 @@ Url: 			      /protocol/v1/select
 Description: 		  Select API helps the buyer to Add or remove the product from the Cart from the response received throught the OnSearch API
 ```
 
-| Parameter                  | Data type | Description                                                                                                                                 |
-| -------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| message.order.fulfillments | Array     | Fulfillment field explain the delivery or pickup location of the customer. Eg: it contains the GPS coordinates long and lat 13.0827,80.2707 |
-| message.order.item         | Array     | Item field has the list of customer selected product details from the list of products of a search response. Eg: It explains the cart       |
-| message.order.provider     | Object    | Provider field has the details about select products that were selling from whom. Ex: saravana store                                        |
+### Parameters
 
-## Flow Diagram of Select and On_Select
+|                            Fields                            |                                                    Purpose                                                    |                                                                    Logic                                                                    |
+|:------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|
+|                   message.order.provider.id                  |                                               Id of the provider                                              |                                                   Primary key to get the provider details.                                                  |
+|              message.order.provider.locations.id             |                                  Describes the location of a runtime object.                                  |                                                   Primary key to get the location details.                                                  |
+|                    message.order.items.id                    | This is the most unique identifier of a service item. An example of an Item ID could be the SKU of a product. |                                          Primary key to get the product from the list of products.                                          |
+|              message.order.items.quantity.count              |                                      Describes count or amount of an item                                     | This field is the count of an item end-user selected from the list of products. Logic is to reduce the product counts from the seller side. |
+|        message.order.fulfillments[0].end.location.gps        |                                           Describes a gps coordinate                                          |                              Selected products are delivered by the logistics based on these location details.                              |
+| message.order.fulfillments[0].end.location.address.area_code |                           Area code. This can be Pincode, ZIP code or any equivalent                          |  When the seller calls the logistic search API, the logistic provider needs to check with area_code and they provide service for this area. |
 
-![select](../img/Select/flowdiagram.svg)
 
 ## Request Sample Data:
 
@@ -133,7 +132,25 @@ Required Parameters:   Need provider_details,location_details,bpp_details,catego
 Url: 			      /protocol/v1/on_select
 Description: 		  OnSelect API returns a quotation of the total products in the cart. Quotation includes the Price, Delivery options , Delivery Charges of the product.
 ```
+### Parameters
 
+|                            Fields                            |                                                    Purpose                                                    |                                                      Logic                                                      |
+|:------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+|               message.order.fulfillments[0].id               |                               Unique reference ID to the fulfillment of an order                              |                                 Primary key to get specific the fulfillment data                                |
+|          message.order.fulfillments[0].@ondc/org/TAT         |           fulfillment turnaround time in ISO8601 durations format e.g. 'PT24H' indicates 24 hour TAT          |          We can check to turn around time with a logistic when they pickup the products from the seller         |
+|       message.order.fulfillments[0].@ondc/org/category       |                                              Fulfillment Category                                             |                                              Additional information                                             |
+|     message.order.fulfillments[0].@ondc/org/provider_name    |                                              Name Of the provider                                             |                                              Additional information                                             |
+|        message.order.fulfillments[0].state.descriptor        |                               Describes the description of a real-world object.                               |                                              Additional information                                             |
+|            message.order.fulfillments[0].tracking            |                               Indicates whether the fulfillment allows tracking                               |                 If allowed, the traction buyer app will show the live tracking option on the UI.                |
+|             message.order.items[0].fulfillment_id            |                               Unique reference ID to the fulfillment of an order                              |                                 Primary key to get specific the fulfillment data                                |
+|                   message.order.items[0].id                  | This is the most unique identifier of a service item. An example of an Item ID could be the SKU of a product. |                       Primary key for getting the specific product on a list of products.                       |
+|                   message.order.provider.id                  |                                               Id of the provider                                              |                                  Primary key for getting the specific provider.                                 |
+|      message.order.quote.breakup[0].@ondc/org/title_type     |                      Enum: [ item, delivery, packing, tax, convenience charge, discount ]                     | Breakup is an array. It has list of objects those this field is used for find what is the purpose of the object |
+| message.order.quote.breakup[0].@ondc/org/item_quantity.count |                                      Count of an item quantity minimum: 0                                     |                               Seller has to minus the count in their catalog count                              |
+|        message.order.quote.breakup[0].item.price.value       |                                  ISO 4217 alphabetic currency code e.g. 'INR'                                 |         Compare the other products or other provider products. Which provider sells the product cheaply?        |
+|      message.order.quote.breakup[0].item.price.currency      |                           pattern: [+-]?([0-9]*[.])?[0-9]+ Describes a decimal value                          |              This field is used for identifying which country currency is used for the transaction.             |
+|             message.order.quote.breakup[0].title             |                                            Mention the product name                                           |                                              Additional information                                             |
+|              message.order.quote.breakup[0].ttl              |                                    Describes duration as per ISO8601 format                                   |                   This field is used for How log request will be alive between sever to client                  |
 ## Request Sample Data
 
 ```json
