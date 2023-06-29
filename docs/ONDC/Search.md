@@ -6,13 +6,12 @@ sidebar_position: 5
 ### About the API
 
  Search API is used to Discover the product for the
-  Buyer from theONDC
+  Buyer from the ONDC
 
-- The Search API allows users to search the full list of products based
-  on the search query available in the Care Commerce.
+-The Search API allows users to search the full list of products based on the search query available in Care Commerce.
 
-- Use the Search API to get a list of products available based on the
-  Search parameter, Location, Mode of Payments etc..
+
+- Use the Search API to get a list of products available based on the Search parameter, Location, Mode of Payments, etc.. 
 
 Buyer Application can use Search API by Multiple ways:
 
