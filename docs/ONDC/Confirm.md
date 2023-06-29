@@ -292,7 +292,7 @@ OnConfirm API is the response for the Confirm API, which has the status
 of the Seller's Approval for the Order. Confirm API sends the Order
 Confirmation from the user, validates the proof of payment. OnConfirm
 returns a Confirmed Order ID as a response. Buyer can use the Order ID
-to know the Order details, Status of the Payment.
+to know the Order details, Status of the Payment. when onconfirm api is called order is completed sucessfully.
 
 ```bash
 Method:               POST
