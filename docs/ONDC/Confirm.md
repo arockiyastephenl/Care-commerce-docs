@@ -6,15 +6,7 @@ sidebar_position: 8
 
 ## About the API:
 
-Confirm API helps to confirm the order and to proceed the payment using
-preferred methods of payment facilitated by the Buyer app. Buyer
-receives the Updated quote and policies from the seller for
-confirmation. The Confirm API request includes the Payment mode the
-buyer wish to proceed with the order. The Payment mode may be Prepaid
-Payment or the Cash on Delivey (COD) Prepaid Payment : Buyer App can
-collect Prepaid Orders payment with the permission of Seller App
-Postpaid/ Cash on Delivery Payment : Seller app can collect Cash on
-delivery payment with the permission of Buyer app
+Confirmation API helps to confirm the order and proceed with payment via preferred payment methods facilitated through Buyer App. The buyer will receive the updated offer and policies from the seller for confirmation. The confirmation API request contains the payment mode that the buyer wants to proceed with the order. The payment mode can be prepaid payment or cash on delivery (cash on delivery). Prepaid Payment: The Buyer App may collect payment for prepaid orders with the Seller App's permission. Postpaid/Cash on Delivery: The seller app can collect payments by cash on delivery with the permission of the buyer app
 
 
 
@@ -292,7 +284,7 @@ OnConfirm API is the response for the Confirm API, which has the status
 of the Seller's Approval for the Order. Confirm API sends the Order
 Confirmation from the user, validates the proof of payment. OnConfirm
 returns a Confirmed Order ID as a response. Buyer can use the Order ID
-to know the Order details, Status of the Payment. when onconfirm api is called order is completed sucessfully.
+to know the Order details, Status of the Payment.
 
 ```bash
 Method:               POST

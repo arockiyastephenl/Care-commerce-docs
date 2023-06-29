@@ -9,7 +9,7 @@ This document explains how the logistic API work in the ONDC Network:
 The seller app has called logistic API. This method is also called p2p API call.
 
 ## Peer-to-Peer API Call:
-Peer-to-peer (P2P) API calling refers to a method of communication where two or more devices or applications directly connect and exchange information without the need for a central server or intermediary. In P2P API calling, each device acts as both a client and a server, allowing for direct communication between devices. This can result in faster and more efficient communication, as well as reduced dependence on centralized servers.  
+Peer-to-Peer (P2P) API calls refer to a method of communication in which two or more devices or applications connect directly and exchange information without the need for a central server or intermediary. In the P2P API call, each device acts as both a client and a server, enabling direct communication between devices. This can lead to faster and more efficient communication and less dependency on central servers.
 
 ## List of API call:
 - Search - On_search

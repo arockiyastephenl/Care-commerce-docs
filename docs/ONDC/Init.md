@@ -5,15 +5,9 @@ sidebar_position: 7
 
 ## About API :
 
-OnSelect API helps to get the Quotation of the products in the Cart,
-Once the Buyer Agrees to buy the products, Using this init API Order can
-be Checkout in the Buyer Application.
+The OnSelect API helps to get the offer of the products in the shopping cart. Once the shopper agrees to purchase the products, the order can proceed to checkout using this init API in the shopper application.     
 
-Using the Init API, Buyer can instantly confirm the order. By using the
-Init API, the seller places the order at the price declared by the buyer
-for the quantity specified by the buyer. Init API sends the Order
-Initialization request and Checks for the seller approval for acceptance
-or rejection of the order by the seller.
+    Using the init API, the buyer can confirm the order immediately. Using the Init API, the seller places the order at the price specified by the buyer for the quantity specified by the buyer. The Init API sends the order initialization request and checks whether the seller approves the seller's acceptance or rejection of the order.
 
 
 
